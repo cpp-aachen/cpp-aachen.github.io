@@ -1,3 +1,11 @@
+## C++ User Group Aachen
+
+## Worum es bei uns geht
+
+
+Die C++ User Gruppe soll Interessierten eine Möglichkeit bieten, Gleichgesinnte zu treffen und mit ihnen aktuelle Probleme, Entwicklungen und Ideen rund um C++ zu diskutieren, und ein Netzwerk um die Programmier-Sprache C++ aufzubauen. Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden können.
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/cpp-aachen/cpp-aachen.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
