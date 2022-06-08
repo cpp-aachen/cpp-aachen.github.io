@@ -1,45 +1,11 @@
-## C++ User Group Aachen
+# C++ User Gruppe Aachen
 
-## Worum es bei uns geht
+Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichgesinnte zu treffen und mit ihnen aktuelle Probleme, Entwicklungen und Ideen rund um C++ zu diskutieren, und ein Netzwerk um die Programmiersprache C++ aufzubauen. Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden können.
 
+## Aktuelles
 
-Die C++ User Gruppe soll Interessierten eine Möglichkeit bieten, Gleichgesinnte zu treffen und mit ihnen aktuelle Probleme, Entwicklungen und Ideen rund um C++ zu diskutieren, und ein Netzwerk um die Programmier-Sprache C++ aufzubauen. Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden können.
+Bis auf Weiteres finden die Treffen nur Online statt.
 
+## Nächster Termin
 
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/cpp-aachen/cpp-aachen.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cpp-aachen/cpp-aachen.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Das nächste Treffen findet am 13. Juli 2022 statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
