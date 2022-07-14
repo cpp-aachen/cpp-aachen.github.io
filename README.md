@@ -4,12 +4,11 @@ Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichg
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 13. Juli 2022** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
+Das nächste Treffen findet am **Mittwoch, den 14. September 2022** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 Geplante Vorträge sind:
 
-* **{"initializer", "lists", "unleashed"}** von Daniel Frey
-* **C++ Sum(m)it** von Sven Johannsen
+* TBD
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
@@ -18,5 +17,3 @@ Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rh
 Die Treffen leben von *euren* Vorträgen, meldet euch gerne mit euren Vorschlägen und Ideen. Wir möchten auch ausdrücklich darauf hinweisen, dass nicht jeder Vortrag über Template Metaprogrammierung gehen muss, auch "einfachere" Themen sind sehr willkommen und wir hatten bereits viele Vorträge die sehr gut angekommen sind. Nutzt die Gelegenheit auch gerne, um Vorträge zu üben und Erfahrungen zu sammeln.
 
 Als Sprache werden Deutsch und Englisch verwendet, wobei Deutsch die Priorität haben sollte. Die gesprochene Sprache kann dabei auch von der Sprache auf den Folien abweichen, wenn ihr euch mit Englisch wohler fühlt, dann ist dies kein Hinderungsgrund.
-
-Nächster Termin: 14.9.2022
