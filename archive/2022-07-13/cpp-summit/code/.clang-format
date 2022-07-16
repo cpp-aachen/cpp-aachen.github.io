@@ -1,0 +1,28 @@
+﻿AccessModifierOffset: -2
+AllowAllParametersOfDeclarationOnNextLine: 'true'
+AllowShortBlocksOnASingleLine: 'true'
+AllowShortCaseLabelsOnASingleLine: 'true'
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Always
+AllowShortLambdasOnASingleLine: Inline
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: 'true'
+BasedOnStyle: Mozilla
+BinPackParameters: 'true'
+BraceWrapping:
+  BeforeCatch:     false
+  BeforeElse:      false
+  IndentBraces:    false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: true
+BreakConstructorInitializers: BeforeComma
+ColumnLimit: 120
+CompactNamespaces: 'false'
+ContinuationIndentWidth: '4'
+FixNamespaceComments: 'false'
+IndentWidth: '4'
+NamespaceIndentation: All
+TabWidth: '4'
+UseTab: Never

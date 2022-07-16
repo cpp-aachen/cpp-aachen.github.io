@@ -1,0 +1,14 @@
+#
+Win32/
+x64/
+build*/
+.vscode/
+.vs/
+
+*.opensdf
+*.VC.db
+*.sdf
+*.suo
+*.user
+stdafx.h.cpp
+*.stash
