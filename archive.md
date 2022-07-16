@@ -9,7 +9,7 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 * Titel: `{ "initializer", "lists", "unleashed"}`
 * Autor: Daniel Frey
-* Folien: [InitializerListsUnleased.pdf](archive/2022-07-13/initializer-lists-unleashed/InitializerListsUnleased.pdf)
+* Folien: [InitializerListsUnleased.pdf](https://github.com/cpp-aachen/cpp-aachen.github.io/blob/main/archive/2022-07-13/initializer-lists-unleashed/InitializerListsUnleashed.pdf)
 
 Der Vortrag erklärt die C++ [List-Initialization➚](https://en.cppreference.com/w/cpp/language/list_initialization) und zeigt, wie man rekursive Strukturen wie z.B. [JSON➚](https://en.wikipedia.org/wiki/JSON) Objekte effizient mit der List-Initialization erzeugen kann.
 
