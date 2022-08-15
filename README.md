@@ -8,7 +8,8 @@ Das nächste Treffen findet am **Mittwoch, den 14. September 2022** statt. Weite
 
 Geplante Vorträge sind:
 
-* TBD
+* Leonid Oswald: "Copilot: Programmieren mit KI-Unterstützung" (ca. 30min)
+* Markus Werle: "Saying Goodbye to Dependency Hell with Git and Modern CMake" (ca. 1h)
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
