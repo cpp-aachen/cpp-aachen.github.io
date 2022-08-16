@@ -53,3 +53,8 @@ Die C++ User Gruppe Aachen wird organisiert von
   [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
 
 Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="LinkedIn.png">
+  <img alt="Test" src="GitHub.png">
+</picture>
