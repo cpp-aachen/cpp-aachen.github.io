@@ -28,33 +28,28 @@ In unserem [Archiv](archive.md) findet ihr Links und Foliensätze vergangener Vo
 Die C++ User Gruppe Aachen wird organisiert von
 
 * Sven Johannsen
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/SvenJo/)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/SvenJo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
 * Detlef Wilkening
 * Daniel Frey
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/d-frey/)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/d-frey/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
 * Kilian Henneberger
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/Ukilele/)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/kilian-henneberger/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/Ukilele/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/kilian-henneberger/)
 * Markus Werle
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/daixtrose)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/daixtrose)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
 * Martin Liebenberg
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/maarli/)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/martin-liebenberg/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/maarli/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/martin-liebenberg/)
 * Michael Becker
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/wickedmic/)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/michael-becker-a05369a8/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/wickedmic/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/michael-becker-a05369a8/)
 * Tobias Hoffmann
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/smilingthax/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/smilingthax/)
 * Wolfram Rösler
-  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/wolframroesler/)
-  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
+  [<picture><source media="(prefers-color-scheme: dark)" srcset="images/GitHub-dark.png"><img alt="GitHub" src="images/GitHub-light.png"></picture>](https://github.com/wolframroesler/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
 
 Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="LinkedIn.png">
-  <img alt="Test" src="GitHub.png">
-</picture>
