@@ -45,6 +45,7 @@ Die C++ User Gruppe Aachen wird organisiert von
   [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/martin-liebenberg/)
 * Michael Becker
   [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/wickedmic/)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/michael-becker-a05369a8/)
 * Tobias Hoffmann
   [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/smilingthax/)
 * Wolfram Rösler
