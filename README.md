@@ -8,8 +8,8 @@ Das nächste Treffen findet am **Mittwoch, den 14. September 2022** statt. Weite
 
 Geplante Vorträge sind:
 
-* Leonid Oswald: "Copilot: Programmieren mit KI-Unterstützung" (ca. 30min)
-* Markus Werle: "Saying Goodbye to Dependency Hell with Git and Modern CMake" (ca. 1h)
+* **Copilot: Programmieren mit KI-Unterstützung** (Leonid Oswald)
+* **Saying Goodbye to Dependency Hell with Git and Modern CMake** (Markus Werle)
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
@@ -22,3 +22,33 @@ Als Sprache werden Deutsch und Englisch verwendet, wobei Deutsch die Priorität 
 # Archiv
 
 In unserem [Archiv](archive.md) findet ihr Links und Foliensätze vergangener Vorträge.
+
+# Das Team
+
+Die C++ User Gruppe Aachen wird organisiert von
+
+* Sven Johannsen
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/SvenJo/)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
+* Detlef Wilkening
+* Daniel Frey
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/d-frey/)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
+* Kilian Henneberger
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/Ukilele/)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/kilian-henneberger/)
+* Markus Werle
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/daixtrose)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
+* Martin Liebenberg
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/maarli/)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/martin-liebenberg/)
+* Michael Becker
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/wickedmic/)
+* Tobias Hoffmann
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/smilingthax/)
+* Wolfram Rösler
+  [<img alt="GitHub" height="16px" src="GitHub.png"/>](https://github.com/wolframroesler/)
+  [<img alt="LinkedIn" height="16px" src="LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
+
+Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
