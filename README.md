@@ -4,12 +4,13 @@ Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichg
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 14. September 2022** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
+Das nächste Treffen findet am **Mittwoch, den 9. November 2022** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 Geplante Vorträge sind:
 
-* **Copilot: Programmieren mit KI-Unterstützung** (Leonid Oswald)
-* **Saying Goodbye to Dependency Hell with Git and Modern CMake** (Markus Werle)
+* **Faster Harder Computer** (Andreas Schulz)
+* **Nested Exceptions und `std::exception_ptr`** (Colin Hirsch [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/ColinH/)[<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/colin-hirsch-18b02442/)
+)
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
