@@ -63,7 +63,7 @@ Der Vortrag untersucht die Möglichkeiten und Beschränkungen von portablem und 
 * Autor: Michael Becker
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wickedmic/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/michael-becker-a05369a8/)
-* Folien: [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://wickedmic.github.io/content/v1/coroutines_in_cpp_20_talk/index.html#/)
+* Folien: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://wickedmic.github.io/content/v1/coroutines_in_cpp_20_talk/index.html#/)
 * [<img alt="YouTube" height="20px" src="images/YouTube-light.png"/>](https://www.youtube.com/watch?v=5QjnBHWOCow)
 
 ### Code Rot
