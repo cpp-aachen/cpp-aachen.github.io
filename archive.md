@@ -33,7 +33,7 @@ Der Vortrag erklärt die C++ [List-Initialization➚](https://en.cppreference.co
 ### C++ Sum~~m~~it
 
 * Titel: C++ Sum~~m~~it
-* Autor: Johannsen
+* Autor: Sven Johannsen
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/SvenJo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
 * Folien: [HTML](archive/2022-07-13/cpp-summit/summit.html) [PDF](https://github.com/cpp-aachen/cpp-aachen.github.io/blob/main/archive/2022-07-13/cpp-summit/C++ sum(m)it.pdf)
