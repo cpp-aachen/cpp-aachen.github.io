@@ -3,6 +3,21 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2022-11-09
+
+### Faster Harder Computer
+
+* Titel: Faster Harder Computer
+* Autor: Andreas Schulz
+
+### Nested Exceptions und `std::exception_ptr`
+
+* Titel: Nested Exceptions und `std::exception_ptr`
+* Autor: Colin Hirsch
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/ColinH/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/colin-hirsch-18b02442/)
+* Folien: [PDF](archive/2022-11-09/nested-exceptions/Nested_Exceptions.pdf)
+
 ## 2022-09-14
 
 ### Copilot: Programmieren mit KI-Unterstützung
@@ -54,6 +69,7 @@ Der Vortrag untersucht die Möglichkeiten und Beschränkungen von portablem und 
 * Autor: Colin Hirsch
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/ColinH/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/colin-hirsch-18b02442/)
+* Folien: [PDF](archive/2022-05-11/premature-optimisation/Premature_Optimisation.pdf)
 
 ## 2022-03-09
 
