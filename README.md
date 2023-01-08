@@ -8,7 +8,10 @@ Das nächste Treffen findet am **Mittwoch, den 11. Januar 2023** statt. Weitere 
 
 Geplante Vorträge sind:
 
-* **TBD**
+* **Fuzzing** (Volker Reichelt)
+* **To Move or not to Move** (Amir Kirsh)
+
+Hinweis: *Die Vorträge werden dieses mal auf Englisch gehalten.*
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
