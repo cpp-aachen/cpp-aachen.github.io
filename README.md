@@ -4,14 +4,11 @@ Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichg
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 11. Januar 2023** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
+Das nächste Treffen findet am **Mittwoch, den 8. März 2023** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 Geplante Vorträge sind:
 
-* **Fuzzing** (Volker Reichelt)
-* **To Move or not to Move** (Amir Kirsh)
-
-Hinweis: *Die Vorträge werden dieses mal auf Englisch gehalten.*
+* **TODO**
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 

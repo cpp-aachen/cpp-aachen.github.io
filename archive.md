@@ -5,12 +5,17 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 ## 2023-01-11
 
+### Fuzzing
+
+* Titel: Fuzzing
+* Autor: Volker Reichelt
+
 ### To Move or Not to Move
 
 * Titel: To Move or Not to Move
 * Autor: Amir Kirsh
 * Folien: [PDF](archive/2023-01-11/to-move-or-not-to-move/ToMoveOrNotToMove_UGAachen2013.pdf)
-* clang-tidy example: [Compiler Explorer](https://clang-tidy.godbolt.org/z/d835KxcWE)
+* Example: [Compiler Explorer](https://clang-tidy.godbolt.org/z/d835KxcWE)
 
 ## 2022-11-09
 
