@@ -8,8 +8,9 @@ Das nächste Treffen findet am **Mittwoch, den 8. März 2023** statt. Weitere In
 
 Geplante Vorträge sind:
 
-* Women in Tech - The C++ Way (Markus Werle)
-* **TODO**
+* **C++ Quiz** (Kilian Henneberger)
+* **`<cmath>`** (Sven Johannsen)
+* **Women in Tech - The C++ Way** (Markus Werle)
 
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
