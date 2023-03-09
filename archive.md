@@ -3,6 +3,24 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2023-03-08
+
+### C++ Quiz
+
+* Titel: C++ Quiz
+* Autor: Kilian Henneberger
+* Folien: [PDF](archive/2023-03-08/cpp-quiz/WerWirdMillionaerCpp.pdf)
+
+### Der Taschenrechner von C++: `<cmath>`
+
+* Titel: Der Taschenrechner von C++: `<cmath>`
+* Autor: Sven Johannsen
+
+### Women in Tech - The C++ Way
+
+* Titel: Women in Tech - The C++ Way
+* Autor: Markus Werle
+
 ## 2023-01-11
 
 ### Fuzzing
