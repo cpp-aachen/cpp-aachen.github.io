@@ -4,15 +4,22 @@ Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichg
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 8. März 2023** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
+Das nächste Treffen findet am **Mittwoch, den 10. Mai 2023** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
+
 
 Geplante Vorträge sind:
 
-* **C++ Quiz** (Kilian Henneberger)
-* **Der Taschenrechner von C++: `<cmath>`** (Sven Johannsen)
-* **Women in Tech - The C++ Way** (Markus Werle)
-
+* **Coding Dojo** (Sven Johannsen, alle)
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
+
+## Nächste Termine:
+
+* 12.7.2023
+* 13.9.2023
+* 9.11.2023
+* 10.1.2024
+* 13.3.2024
+* 8.5.2024
 
 # Vorträge
 
