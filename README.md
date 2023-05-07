@@ -10,6 +10,7 @@ Das nächste Treffen findet am **Mittwoch, den 10. Mai 2023** statt. Weitere Inf
 Geplante Vorträge sind:
 
 * **Coding Dojo** (Sven Johannsen, alle)
+
 Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
 ## Nächste Termine:
