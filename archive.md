@@ -15,6 +15,8 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 * Titel: Der Taschenrechner von C++: `<cmath>`
 * Autor: Sven Johannsen
+* Folien: [PDF](archive/2023-03-08/cmath-part1/cmath-part1.pdf)
+* Folien: [HTML](archive/2023-03-08/cmath-part1/cmath.html)
 
 ### Women in Tech - The C++ Way
 
