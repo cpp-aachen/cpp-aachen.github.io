@@ -159,3 +159,10 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 * Autor: Wolfram Rösler
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wolframroesler/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
+
+## 2015-03-12
+
+* Titlel: Überladene Funktionen einfacher auflösen
+* Autor: Stefan Pabst
+* Folien: [PDF](archive/2015-03-12/Ueberladene_Funktionen_einfacher_aufloesen/2015-03-12_Stefan_Pabst__ueberladene_Funktionen_einfacher_aufloesen.pdf)
+* Source: [HPP](archive/2015-03-12/Ueberladene_Funktionen_einfacher_aufloesen/Stefans_Static_Caster.hpp)
