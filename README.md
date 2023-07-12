@@ -1,21 +1,25 @@
 # Willkommen
 
-Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichgesinnte zu treffen und mit ihnen aktuelle Probleme, Entwicklungen und Ideen rund um C++ zu diskutieren, und ein Netzwerk um die Programmiersprache C++ aufzubauen. Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden können.
+Die C++ User Gruppe Aachen soll Interessierten eine Möglichkeit bieten, Gleichgesinnte zu treffen und mit ihnen aktuelle Probleme, Entwicklungen und Ideen rund um C++ zu diskutieren, und ein Netzwerk um die Programmiersprache C++ aufzubauen.
+Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden können.
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 10. Mai 2023** statt. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
-
+Wir machen eine Sommerpause, das nächste Treffen findet am **Mittwoch, den 23. August 2023** statt.
+Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 Geplante Vorträge sind:
 
-* **Coding Dojo** (Sven Johannsen, alle)
+* **Move** (Michael Becker)
+* **PodMan** (Markus Werle)
 
-Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
+Das Treffen soll, nach langer Zeit, endlich wieder vor Ort stattfinden.
+Wir klären aktuell, welche Firmen Räume zur Verfügung stellen können und werden den Ort rechtzeitig bekannt geben.
 
 ## Nächste Termine:
 
-* 12.7.2023
+Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
+
 * 13.9.2023
 * 9.11.2023
 * 10.1.2024
@@ -24,9 +28,12 @@ Aktuell finden die Treffen nur Online statt. Wir streben einen zwei-monatigen Rh
 
 # Vorträge
 
-Die Treffen leben von *euren* Vorträgen, meldet euch gerne mit euren Vorschlägen und Ideen. Wir möchten auch ausdrücklich darauf hinweisen, dass nicht jeder Vortrag über Template Metaprogrammierung gehen muss, auch "einfachere" Themen sind sehr willkommen und wir hatten bereits viele Vorträge die sehr gut angekommen sind. Nutzt die Gelegenheit auch gerne, um Vorträge zu üben und Erfahrungen zu sammeln.
+Die Treffen leben von *euren* Vorträgen, meldet euch gerne mit euren Vorschlägen und Ideen.
+Wir möchten auch ausdrücklich darauf hinweisen, dass nicht jeder Vortrag über Template Metaprogrammierung gehen muss, auch "einfachere" Themen sind sehr willkommen und wir hatten bereits viele Vorträge die sehr gut angekommen sind.
+Nutzt die Gelegenheit auch gerne, um Vorträge zu üben und Erfahrungen zu sammeln.
 
-Als Sprache werden Deutsch und Englisch verwendet, wobei Deutsch die Priorität haben sollte. Die gesprochene Sprache kann dabei auch von der Sprache auf den Folien abweichen, wenn ihr euch mit Englisch wohler fühlt, dann ist dies kein Hinderungsgrund.
+Als Sprache werden Deutsch und Englisch verwendet, wobei Deutsch die Priorität haben sollte.
+Die gesprochene Sprache kann dabei auch von der Sprache auf den Folien abweichen, wenn ihr euch mit Englisch wohler fühlt, dann ist dies kein Hinderungsgrund.
 
 # Archiv
 
