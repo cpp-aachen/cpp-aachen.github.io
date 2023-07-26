@@ -5,18 +5,23 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Wir machen eine Sommerpause, das nächste Treffen findet am **Mittwoch, den 23. August 2023** statt.
-Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
+Das nächste Treffen findet am **Mittwoch, den 23. August 2023** statt.
+Wir treffen uns ab **18.30 Uhr** bei **Utimaco**, die Vorträge beginnen ab 19.00 Uhr.
 
-Geplante Vorträge sind:
+[Utimaco GmbH](https://utimaco.com)  
+Germanusstraße 4  
+52080 Aachen
+
+[Google Maps](https://www.google.com/maps/place/Germanusstraße+4,+52080+Aachen)
+
+Geplante Vorträge:
 
 * **Move** (Michael Becker)
 * **PodMan** (Markus Werle)
 
-Das Treffen soll, nach langer Zeit, endlich wieder vor Ort stattfinden.
-Wir klären aktuell, welche Firmen Räume zur Verfügung stellen können und werden den Ort rechtzeitig bekannt geben.
+Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
-## Nächste Termine:
+## Nächste Termine
 
 Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
