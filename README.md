@@ -19,7 +19,7 @@ Ort der Veranstaltung:
 Germanusstraße 4  
 52080 Aachen
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.952109710797!2d6.1244542!3d50.7949961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0993383167e07%3A0x192db90a7b424613!2sGermanusstra%C3%9Fe%204%2C%2052080%20Aachen!5e0!3m2!1sde!2sde!4v1690409425103!5m2!1sde!2sde" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.953574044049!2d6.1217988763639415!3d50.79496896249831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c099338348708f%3A0x39c1c9bf8a6de4d1!2sUtimaco!5e0!3m2!1sde!2sde!4v1690437473776!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
