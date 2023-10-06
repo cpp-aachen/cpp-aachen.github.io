@@ -5,19 +5,18 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 23. August 2023** statt.
-Wir treffen uns ab **18.30 Uhr** bei **Utimaco**, die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 25. Oktober 2023** statt.
+Wir treffen uns ab **18.30 Uhr** bei **ModuleWorks**, die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Move** (Michael Becker)
-* **PodMan** (Markus Werle)
+* **TBA** (TBA)
 
 Ort der Veranstaltung:
 
-[Utimaco GmbH](https://utimaco.com)  
-Germanusstraße 4  
-52080 Aachen
+[ModuleWorks GmbH](https://www.moduleworks.com/)  
+Henricistraße 50
+52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -25,8 +24,7 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
-* 13.9.2023
-* 9.11.2023
+* 29.11.2023
 * 10.1.2024
 * 13.3.2024
 * 8.5.2024
