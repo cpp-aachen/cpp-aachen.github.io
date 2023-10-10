@@ -15,7 +15,7 @@ Geplante Vorträge:
 Ort der Veranstaltung:
 
 [ModuleWorks GmbH](https://www.moduleworks.com/)  
-Henricistraße 50
+Henricistraße 52 (neues Gebäude)
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
