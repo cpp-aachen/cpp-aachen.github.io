@@ -10,7 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei **ModuleWorks**, die Vorträge beginnen ab 
 
 Geplante Vorträge:
 
-* **TBA** (TBA)
+* **Pimpl Idiom** (John Franklin Richard)
+* **kmscon - Systemkonsole mit OpenGL** (Mirco Müller)
 
 Ort der Veranstaltung:
 
