@@ -1,0 +1,10 @@
+Den Vortrag habe ich komplett in kmscon-Sessions gehalten, um Dinge besser live
+demonstrieren zu koennen. Kein Xorg, Weston, GNOME oder KDE war aktiv. Daher ist
+alles nur in einer einfachen Textdatei 'kmscon-vortrag.txt' enthalten. Sozusagen
+ASCII-Folien... mein Praesentationswerkzeug war 'less' ;)
+
+Fuer Leute, die nicht anwesend waren, sind Screencast-Links am Ende hilfreich,
+um eine Vorstellung zu bekommen was gezeigt wurde.
+
+Die 'glyph-atlas.jpg' Grafik habe ich mit einer Variation vom dem Patch 4 fuer
+den GLSL-basierten Shaderhintergrund in den Vortrag eingebaut.

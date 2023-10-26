@@ -1,0 +1,300 @@
+
+
+   Uebersicht
+
+     * Was ist kmscon?
+
+     * Wer bin ich?
+
+     * Motivation
+
+     * Patch 1: Output Rotation
+
+     * Patch 2: Mouse Selection & 'Clipboard'
+
+     * Patch 3: Gyro Support
+
+     * Patch 4: Grober Unfug...
+
+     * Upstream
+
+     * Sourcecode, Blog-Posts, Screencasts
+
+     * Q/A
+
+-= 1/12 =-
+
+
+   Was ist kmscon?
+
+     * KMS-basierte Systemkonsole fuer Linux
+
+     * Plugin-Infrastruktur fuer Features
+
+     * Unicode-faehig, z.B. Kyrillisch, Japanisch, Farsi... noch keine Emojis
+
+     * Feature/Plugin: Freetype Schriften
+
+     * Feature/Plugin: OpenGL|ES Render Backend
+
+     * libtsm: State Machine fuer Terminalemulation (VT100..VT520)
+
+     * 'alt', ca. 2012, urspruenglicher Entwickler David Herrmann
+
+     * Projektleitung ist organisch in andere Haende uebergegangen
+
+
+
+
+
+-= 2/12 =-
+
+
+   Wer bin ich?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-= 3/12 =-
+
+
+   Motivation
+
+     * Zen-Momente 'in the zone'
+
+     * untypisches Monitor-Setup
+
+     * keine Linux-Systemkonsole kann die Ausgabe rotieren a la xrandr
+
+     * praktisch: kmscon ist OpenSource
+
+     * praktischer: sich mit OpenGL auskennen
+
+     * peak-Pragmatismus: Grafik-Nerd mit ein bischen Freizeit zu sein
+
+     * Famous last words: "Ach, das wird ein Kinderspiel... hab' ich ratzfatz fertig!"
+
+     * Beginn Januar/Februar 2023
+
+
+
+
+
+-= 4/12 =-
+
+
+   Patch 1: Output Rotation
+
+     * Diagramme
+
+       * ein quad pro Zeichen
+
+       * Texturatlas fuer Glyphs
+
+     * kmscon/src/text_gltex.c 
+
+       * kmscon_text_gltex_ops
+
+       * gltex_rotate
+
+       * gltex_render_pointer (siehe auch Patch 2)
+
+     * GL Transformationsmatrix
+
+     * Hoehe, Breite fuer Anzahl Zeichen berechnen
+
+     * Demo: UTF8-text, tmux, btop, cmatrix 
+
+-= 5/12 =-
+
+
+   Patch 2: Mouse Selection & 'Clipboard'
+
+     * kmscon structs: eloop, ev_timer
+
+     * Device-/Kernel-Interface: /dev/input/mice 
+
+     * kmscon/src/kmscon_mouse.h
+
+     * meine structs: kmscon_mouse_info, kmscon_selection_info
+
+     * Maus, Trackpoint, Apple Magic Mouse Pad... alles gleichzeitig
+
+     * Update-Rate fuer Device-Query
+
+     * Demo: tmux, cut&paste von Dateinamen
+
+
+
+
+
+
+
+-= 6/12 =-
+
+
+   Patch 3: Gyro Support (DBus Service)
+
+     * Laptop mit Gyro
+
+     * DBus Service "/net/hadess/SensorProxy" (Bastien 'hadess' Nocera)
+
+     * #include <dbus/dbus.h> low-level, davon raten selbst DBus-Maintainer ab
+
+     * kmscon/src/kmscon_terminal.c
+
+     * "Waere doch toll, wenn das automatisch geht"
+
+     * -> Screencasts
+
+     * Live-Demo gleich in der Pause mit separatem Laptop
+
+
+
+
+
+
+
+-= 7/12 =-
+
+
+   Patch 4: Grober Unfug... Shader Backgrounds
+
+     * Wenn wir schon mit OpenGL unterwegs sind, dann...
+
+     * ASCII-Art vs echte GLSL-Shader :)
+
+     * -> Screencasts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-= 8/12 =-
+
+
+   Upstream
+
+     * urspruenglicher Maintainer wohl bei RedHat 'verschollen'
+
+     * neuer de-facto Maintainer "aetf" nicht so aktiv
+
+     * ein Debian-Maintainer hat sich mal gemeldet
+
+     * PR auf github erzeugt... vor ein paar Monaten
+
+     * alles etwas traege... oder einfach zu Nischen-spezifische Patches
+
+     * auch Vortrag auf der FOSDEM in Bruessel 2024 geplant
+
+
+
+
+
+
+
+
+
+-= 9/12 =-
+
+
+   Sourcecode, Blog-Posts, Screencasts
+
+     * https://github.com/MacSlow/kmscon
+
+     * https://blog.macslow.org/?p=365
+
+     * https://blog.macslow.org/?p=399
+
+     * https://blog.macslow.org/?p=407
+
+     * https://www.youtube.com/embed/ybjmUFIXfUU
+
+     * https://www.youtube.com/embed/j21k9cbhDNQ
+
+     * https://www.youtube.com/embed/b2F_jsfWvFY
+
+     * https://www.youtube.com/embed/pRyEnU1hMXo
+
+
+
+
+
+-= 10/12 =-
+
+
+   Fragen? Nee, oder doch?! ;-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-= 11/12 =-
+
+ 
+   Besten Dank fuer Eure Aufmerksamkeit!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-= 12/12 =-
