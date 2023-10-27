@@ -3,6 +3,18 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2023-10-25
+
+### kmscon Systemkonsole mit OpenGL
+
+* Autor: Mirco Müller
+* Folien: [txt](archive/2023-10-25/kmscon-Systemkonsole-mit-OpenGL/kmscon-vortrag.txt)
+
+### Writing A Pimpl Wrapper
+
+* Autor: John Franklin Rickard
+* Folien: [PDF](archive/2023-10-25/Writing_A_Pimpl_Wrapper/2023_10_15_Writing_A_Pimpl_Wrapper.pdf)
+
 ## 2023-03-08
 
 ### C++ Quiz
