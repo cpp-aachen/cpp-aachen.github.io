@@ -5,27 +5,26 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 25. Oktober 2023** statt.
-Wir treffen uns ab **18.30 Uhr** bei **ModuleWorks**, die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 19. November 2023** statt.
+Wir treffen uns ab **18.30 Uhr** bei **SLB** (Schlumberger), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Pimpl Idiom** (John Franklin Richard)
-* **kmscon - Systemkonsole mit OpenGL** (Mirco Müller)
+* **Accessing Private Members The Right Way** (Daniel Frey)
+* **useful boost containers** (Daniel Evers)
 
 Ort der Veranstaltung:
 
-[ModuleWorks GmbH](https://www.moduleworks.com/)  
-Henricistraße 52 (neues Gebäude)
-52072 Aachen
-
+  SLB (Schlumberger)
+  Ritterstr. 23
+  52072 Aachen
+   
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 ## Nächste Termine
 
 Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
 
-* 29.11.2023
 * 10.1.2024
 * 13.3.2024
 * 8.5.2024
