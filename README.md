@@ -15,9 +15,9 @@ Geplante Vorträge:
 
 Ort der Veranstaltung:
 
-  SLB (Schlumberger)
-  Ritterstr. 23
-  52072 Aachen
+  SLB (Schlumberger)\
+  Ritterstr. 23\
+  52072 Aachen\
    
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
