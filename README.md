@@ -5,7 +5,7 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 19. November 2023** statt.
+Das nächste Treffen findet am **Mittwoch, den 29. November 2023** statt.
 Wir treffen uns ab **18.30 Uhr** bei **SLB** (Schlumberger), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
@@ -15,8 +15,8 @@ Geplante Vorträge:
 
 Ort der Veranstaltung:
 
-**SLB** (Schlumberger)</br>
-Ritterstr. 23</br>
+**SLB** (Schlumberger)  
+Ritterstr. 23  
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
