@@ -3,6 +3,18 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2023-11-29
+
+### Accessing Private Members the Right Way
+
+* Titel: Accessing Private Members the Right Way
+* Autor: Daniel Frey
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
+* Folien: [PDF](https://github.com/cpp-aachen/cpp-aachen.github.io/blob/main/archive/2023-11-29/access_private_members/AccessPrivateMembers.pdf)
+
+In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cppreference.com/w/cpp/language/access) Member einer Klasse hilfreich oder notwendig sein. Dieser Vortrag zeigt eine einfache, skalierbare und standardkonforme Technik dies zu tun.
+
 ## 2023-10-25
 
 ### kmscon Systemkonsole mit OpenGL
@@ -139,16 +151,6 @@ Der Vortrag untersucht die Möglichkeiten und Beschränkungen von portablem und 
 Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneut bauen, ohne dass sich irgendwas geändert hat. Oder?
 
 ## 2022-01-12
-
-### How to access your private parts without getting into trouble
-
-* Titel: How to access your private parts without getting into trouble
-* Autor: Daniel Frey
-  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
-  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
-* Folien: [PDF](https://github.com/cpp-aachen/cpp-aachen.github.io/blob/main/archive/2022-01-12/access_private_parts/AccessPrivateParts.pdf)
-
-In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cppreference.com/w/cpp/language/access) Member einer Klasse hilfreich oder notwendig sein. Dieser Vortrag zeigt eine einfache, skalierbare und standardkonforme Technik dies zu tun.
 
 ### Deduction Guides for Range Adaptors
 
