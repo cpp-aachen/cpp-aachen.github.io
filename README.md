@@ -5,29 +5,30 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 29. November 2023** statt.
-Wir treffen uns ab **18.30 Uhr** bei **SLB** (Schlumberger), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 7. Februar 2024** statt.
+Wir treffen uns ab **18.30 Uhr** bei **Magma**, die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Accessing Private Members The Right Way** (Daniel Frey)
-* **useful boost containers** (Daniel Evers)
+**`std::string::resize_and_overwrite`** (Tobias Hoffmann)
+**Coroutines in C++20** (Michael Becker)
 
 Ort der Veranstaltung:
 
-**SLB** (Schlumberger)  
-Ritterstr. 23  
+[**Magma**](https://www.magmasoft.de/)  
+Kackertstraße 16-18  
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 ## Nächste Termine
 
-Wir streben einen zwei-monatigen Rhythmus an, jeweils am 2. Mittwoch des Monats.
+Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 10.1.2024
-* 13.3.2024
-* 8.5.2024
+* 10. April 2024
+* 5. Juni 2024
+* 7. August 2024
+* 9. Oktober 2024
 
 # Vorträge
 
@@ -72,3 +73,32 @@ Die C++ User Gruppe Aachen wird organisiert von
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
 
 Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
+
+# Partner
+
+Die folgenden Firmen stellen freundlicherweise Räume und Bewirtung zur Verfügung, vielen Dank dafür!
+Die Usergruppe findet reihum, bzw. je nach Verfügbarkeit statt bei:
+
+## Utimaco
+
+[**Utimaco**](https://utimaco.com/)  
+Germanusstraße 4  
+52080 Aachen
+
+## ModuleWorks
+
+[**ModuleWorks**](https://www.moduleworks.com/)  
+Henricistraße 50-52  
+52072 Aachen
+
+## SLB
+
+[**SLB**](https://www.slb.com/) (ehemals Schumberger)  
+Ritterstraße 23  
+52072 Aachen
+
+## Magma
+
+[**Magma**](https://www.magmasoft.de/)  
+Kackertstraße 16-18  
+52072 Aachen
