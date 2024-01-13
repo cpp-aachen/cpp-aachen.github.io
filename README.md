@@ -10,8 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei **Magma**, die Vorträge beginnen ab 19.00 
 
 Geplante Vorträge:
 
-**`std::string::resize_and_overwrite`** (Tobias Hoffmann)
-**Coroutines in C++20** (Michael Becker)
+* **`std::string::resize_and_overwrite`** (Tobias Hoffmann)
+* **Coroutines in C++20** (Michael Becker)
 
 Ort der Veranstaltung:
 
