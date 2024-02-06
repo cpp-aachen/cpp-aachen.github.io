@@ -93,7 +93,7 @@ Henricistraße 50-52
 
 ## SLB
 
-[**SLB**](https://www.slb.com/) (ehemals Schumberger)  
+[**SLB**](https://www.slb.com/) (ehemals Schlumberger)  
 Ritterstraße 23  
 52072 Aachen
 
