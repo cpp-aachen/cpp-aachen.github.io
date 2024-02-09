@@ -24,6 +24,15 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cppreference.com/w/cpp/language/access) Member einer Klasse hilfreich oder notwendig sein. Dieser Vortrag zeigt eine einfache, skalierbare und standardkonforme Technik dies zu tun.
 
+### Useful Boost Containers
+
+* Titel: Useful Boost Containers
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+* Folien: [PDF](archive/2023-11-29/useful_boost_containers/Useful%20Boost%20Containers.pdf)
+* Folien: [Keynote](archive/2023-11-29/useful_boost_containers/Useful%20Boost%20Containers.key)
+
 ## 2023-10-25
 
 ### kmscon Systemkonsole mit OpenGL
