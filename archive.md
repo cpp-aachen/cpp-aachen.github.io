@@ -3,6 +3,15 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2024-02-07
+
+### `std::string::resize_and_overwrite`
+
+* Titel: `std::string::resize_and_overwrite`
+* Autor: Tobias Hoffmann
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
+* Folien: [PDF](archive/2024-02-07/std__string__resize_and_overwrite.pdf)
+
 ## 2023-11-29
 
 ### Accessing Private Members the Right Way
