@@ -194,6 +194,25 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wolframroesler/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
 
+## 2019-07-11
+
+### C/C++ Rounding Cheat Sheet
+
+* Titel: C/C++ Rounding Cheat Sheet
+* Autor: Tobias Hoffmann
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
+* Folien: [PDF](archive/2019-07-11/rounding/C_C++%20Rounding%20Cheat%20Sheet.pdf)
+
+## 2018-09-13
+
+### switch/case for Strings
+
+* Titel: switch/case for Strings
+* Autor: Tobias Hoffmann
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
+* Folien: [HTML](archive/2018-09-13/string_switch/index.html)
+* Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/cttrie)
+
 ## 2015-03-12
 
 * Titlel: Überladene Funktionen einfacher auflösen

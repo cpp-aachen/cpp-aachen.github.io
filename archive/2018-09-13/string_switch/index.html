@@ -1,0 +1,844 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>cttrie - Compile time TRIE based string matching</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/highlight/zenburn.css">
+    <style>
+span.c1 {
+  background-color: #607d8b;
+}
+span.c2 {
+  background-color: #637ab7;
+}
+span.c3 {
+  background-color: #009688;
+}
+span.cm {
+  background-color: #555;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  text-transform: unset;
+  font-variant: small-caps;
+}
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+<section>
+  <h1><a href="https://github.com/smilingthax/cttrie">switch/case for Strings</a></h1>
+  <h3>Tobias Hoffmann</h3>
+  <h4>C++ User Treffen Aachen, 2018-09-13</h4>
+</section>
+
+<section>
+  <img src="png/intro.png" width="100%" class="plain" style="image-rendering: pixelated">
+</section>
+
+<section>
+  <img src="png/stackoverflow1.png" width="80%">
+  <br>
+  <a href="https://stackoverflow.com/questions/4165131/c-c-switch-for-non-integers">C/C++: switch for non-integers - Stack Overflow</a>
+</section>
+
+<section>
+  <img src="png/cppswitch.png" width="80%">
+  <br>
+  <a href="http://en.cppreference.com/w/cpp/language/switch">switch statement - cppreference.com</a>
+</section>
+
+<section>
+  <img src="png/stackoverflow2.png" width="90%">
+  <br>
+  <a href="http://thax.hardliners.org/src/fastmatch.h">fastmatch.h</a>
+</section>
+
+<section>
+  <img src="png/stackoverflow3.png" width="100%">
+  <br>
+  <a href="http://thax.hardliners.org/src/switch.hpp">switch.hpp</a>
+</section>
+
+<section>
+  <h2>Can we do better?</h2>
+
+  <p class="fragment">We want to:</p>
+  <ul>
+    <li class="fragment">compare only the remainder
+    <li class="fragment">get rid of the sorting requirement
+    <li class="fragment">keep "O(log n)" lookup complexity
+    <li class="fragment">still have clean code
+  </ul>
+</section>
+
+<section data-transition="fade-in none-out">
+  <h2>Trie</h2>
+
+  <img src="svg/trie1-1.svg" width="80%" class="plain" style="background: none">
+  <br>
+
+  <ol start="0">
+    <li>Raben
+    <li>Rabe
+    <li>Rasten
+    <li>Rasen
+  </ol>
+
+</section>
+
+<section data-transition="none-in fade-out">
+  <h2>Trie</h2>
+
+  <img src="svg/trie1-2.svg" width="80%" class="plain" style="background: none">
+  <br>
+
+  <ol start="0">
+    <li>Raben
+    <li>Rabe
+    <li>Rasten
+    <li>Rasen
+  </ol>
+
+</section>
+
+<section>
+  <img src="png/stackoverflow4.png" width="100%">
+  <a href="https://github.com/smilingthax/cttrie">smilingthax/cttrie</a>
+</section>
+
+<section>
+  <h2>cttrie usage example i</h2>
+
+  <pre><code>
+#include "cttrie.h"
+...
+  const char *str = ...; // oder std::string, ...
+
+  TRIE(str) printf("E\n");
+  CASE("Raben") printf("0\n");
+  CASE("Rabe") printf("1\n");
+  CASE("Rasten") printf("2\n");
+  CASE("Rasen") printf("3\n");
+  ENDTRIE;
+  </code></pre>
+</section>
+
+<section>
+  <h2>cttrie usage example ii</h2>
+
+  <pre><code>
+  printf("%d\n",
+         TRIE(str) return -1;
+         CASE("abc") return 0;
+         CASE("bcd") return 1;
+         ENDTRIE);
+  </code></pre>
+</section>
+
+<!---->
+
+<section>
+  <h2>Agenda</h2>
+
+  <ul>
+    <li>Lifting the Hood
+    <li>C++ template techniques, index sequences
+    <li>Trie as C++ types
+    <li>Trie lookup
+    <li>String literals and TMP
+    <li>Building the trie
+    <li>Additional features
+    <br><br>
+    <li>Two applications
+    <li>Extensions to cttrie, other approaches
+  </ul>
+</section>
+
+<!---->
+<section>
+  <h2>Lifting the Hood i</h2>
+
+  <pre><code>
+#define TRIE(str)  CtTrie::doTrie((str), [&]{
+
+#define CASE(str)  }, CSTR(str), [&]{
+
+#define ENDTRIE    })
+
+template &lt;typename ArgE, typename... Args>
+constexpr auto doTrie(stringview str,
+                      ArgE&& argE, Args&&... args)
+  -> decltype(argE())
+{ ... }
+
+// CSTR("abc")  ->  string_t<...>
+  </code></pre>
+ctrie.h
+
+</section>
+
+<section>
+  <h2>Lifting the Hood ii</h2>
+
+  <pre><code>struct stringview {
+  template &lt;unsigned int N>
+  constexpr stringview(const char (&ar)[N]) // implicit
+    // strips trailing \0
+    : begin(ar), size((ar[N-1]==0) ? N-1 : N) {}
+
+  template &lt;typename String,
+            typename Sfinae=decltype(
+              std::declval&lt;String>().c_str(),
+              std::declval&lt;String>().size())>
+  constexpr stringview(String&& str)
+    : begin(str.c_str()), size(str.size()) {}
+
+  stringview(const char *begin)
+    : begin(begin), size(std::strlen(begin)) {}
+
+  constexpr stringview(const char *begin, unsigned int size)
+    : begin(begin), size(size) {}
+
+  constexpr bool empty() const {
+    return (size==0);
+  }
+
+  constexpr char operator*() const {
+    // assert(!empty());  // or: throw ?
+    return *begin;
+  }
+
+  constexpr stringview substr(unsigned int start) const {
+    return { begin+start,
+             (start&lt;size) ? size-start : 0 };
+  }
+
+  constexpr stringview substr(unsigned int start,
+                              unsigned int len) const {
+    return { begin+start,
+             (start&lt;size) ?
+               (len&lt;size-start) ? len : size-start
+             : 0 };
+  }
+
+private:
+  const char *begin;
+  unsigned int size;
+};
+  </code></pre>
+stringview.h
+
+</section>
+
+<section>
+  <h2>C++ template techniques</h2>
+
+  <pre><code>// provides  pack_tools::get_index&lt;I>(Ts&&... ts)
+// (≙ std::get&lt;I>(std::make_tuple(ts...)) )
+
+namespace pack_tools {
+namespace detail {
+  template &lt;unsigned int> struct int_c {};
+
+  template &lt;unsigned int I>
+  constexpr void *get_index_impl(int_c&lt;I>) // invalid index
+  {
+    return {};
+  }
+
+  template &lt;typename T0, typename... Ts>
+  constexpr T0&& get_index_impl(int_c&lt;0>,
+                                T0&& t0, Ts&&... ts)
+  {
+    return (T0&&)t0;
+  }
+
+  template &lt;unsigned int I, typename T0, typename... Ts>
+  constexpr auto get_index_impl(int_c&lt;I>,
+                                T0&& t0, Ts&&... ts)
+    -> decltype(get_index_impl(int_c&lt;I-1>(), (Ts&&)ts...))
+  {
+    return get_index_impl(int_c&lt;I-1>(), (Ts&&)ts...);
+  }
+} // namespace detail
+
+template &lt;unsigned int I, typename... Ts>
+constexpr auto get_index(Ts&&... ts)
+  -> decltype(detail::get_index_impl(detail::int_c&lt;I>(),
+                                     (Ts&&)ts...))
+{
+  static_assert((I&lt;sizeof...(Ts)), "Invalid Index");
+  return detail::get_index_impl(detail::int_c&lt;I>(),
+                                (Ts&&)ts...);
+}
+
+} // namespace pack_tools
+  </code></pre>
+get_index.h
+
+</section>
+
+<section>
+  <h2>Index sequences i</h2>
+
+  <img src="svg/interleave1-1.svg" width="100%" class="plain" style="background: none; margin-bottom: 0">
+
+  <pre style="margin-top: 0"><code>// using seq3_t = std::make_index_sequence&lt;3>; // not c++11
+using seq3_t = decltype(detail::make_index_sequence&lt;3>());
+
+// => seq3_t = detail::index_sequence&lt;0, 1, 2, 3>;
+
+template &lt;unsigned int... Is>
+void foo(detail::index_sequence&lt;Is...>) { ... }
+
+foo(detail::make_index_sequence<3>());
+
+// c++14: index_sequence = integer_sequence&lt;size_t, Is...>;
+  </code></pre>
+</section>
+
+<section>
+  <h2>Index sequences ii</h2>
+
+  <pre><code>struct nil {};
+
+template &lt;bool B>
+using Sfinae = typename std::enable_if&lt;B>::type;
+
+template &lt;unsigned int... Is>
+struct index_sequence {};
+
+template &lt;unsigned int N, unsigned int... Is,
+          typename =Sfinae&lt;N==0>>
+constexpr index_sequence&lt;Is...> make_index_sequence(...)
+{ return {}; }
+
+template &lt;unsigned int N, unsigned int... Is,
+          typename =Sfinae&lt;(N>0)>>
+constexpr auto make_index_sequence(...)
+  // argument forces ADL
+  -> decltype(make_index_sequence&lt;N-1, N-1, Is...>(nil()))
+{ return {}; }
+  </code></pre>
+</section>
+
+<section>
+  <h2>Index sequences iii</h2>
+
+  <pre><code data-noescape>namespace detail {
+  template &lt;unsigned int... Is,
+            typename ArgE, typename... Args>
+  constexpr auto doTrie(index_sequence&lt;Is...>,
+                        <span class="c1">stringview str</span>,
+                        <span class="c2">ArgE&& argE</span>, <span class="c3">Args&&... args</span>)
+    -> decltype(argE())
+  {
+    return checkTrie(
+      makeTrie&lt;0>(
+        nil(),
+        pack_tools::get_index&lt;(2*Is)>(<span class="c3">(Args&&)args...</span>)...),
+      <span class="c1">str</span>, <span class="c2">(ArgE&&)argE</span>,
+      pack_tools::get_index&lt;(2*Is+1)>(<span class="c3">(Args&&)args...</span>)...);
+  }
+} // namespace detail
+
+template &lt;typename ArgE, typename... Args>
+constexpr auto doTrie(<span class="c1">stringview str</span>,
+                      <span class="c2">ArgE&& argE</span>, <span class="c3">Args&&... args</span>)
+  -> decltype(argE())
+{
+  return detail::doTrie(
+    detail::make_index_sequence&lt;sizeof...(args)/2>(),
+    <span class="c1">str</span>, <span class="c2">(ArgE&&)argE</span>, <span class="c3">(Args&&)args...</span>);
+}
+  </code></pre>
+
+  <img src="svg/interleave1-1.svg" width="100%" class="plain" style="background: none; margin-top: 0">
+
+</section>
+
+<section>
+  <h2>Trie as C++ types</h2>
+
+  <img src="svg/trie2-1.svg" width="85%" class="plain" style="background: none; margin: 0">
+
+  <pre style="margin-top: 0"><code>namespace CtTrie {
+using pack_tools::detail::int_c;
+
+template &lt;int Char, typename Next>
+struct Transition {};
+
+// multiple inheritance used for cttrie_sw256 ...
+template &lt;typename... Transitions>
+struct TrieNode : Transitions... {};
+
+// ...</code></pre>
+</section>
+
+<section>
+  <h2>Trie lookup i</h2>
+
+  <pre><code>check(node, str):
+  if (str.empty):
+    if (node.Transition[0].Char==-1):
+      return node.Transition[0].Next // i.e. index
+    return error
+
+  switch (str[0]):
+    case node.Transition[0].Char:
+      return check(node.Transition[0].Next, str[1:])
+    case node.Transition[1].Char:
+      return check(node.Transition[1].Next, str[1:])
+    ...
+  return error // (default)</code></pre>
+(pseudocode)
+</section>
+
+<section>
+  <h2>Trie lookup ii</h2>
+
+  <pre><code data-noescape>// possible via Transition&lt;-1, int_c<...>>
+template &lt;<span class="c2">typename FnE</span>, <span class="c3">typename... Fns</span>>
+constexpr auto checkTrie(TrieNode&lt;> trie, stringview str,
+                         <span class="c2">FnE&& fne</span>, <span class="c3">Fns&&... fns</span>)
+  -> decltype(<span class="c2">fne()</span>)
+{
+  return <span class="c2">fne()</span>;
+}
+
+template &lt;<span class="c1">int Char</span>, <span class="c1">typename Next</span>,
+          <span class="c2">typename FnE</span>, <span class="c3">typename... Fns</span>,
+          typename =Sfinae&lt;(<span class="c1">Char</span>>=0)>>
+constexpr auto checkTrie(
+  TrieNode&lt;Transition&lt;<span class="c1">Char</span>,<span class="c1">Next</span>>> trie,
+  stringview str, <span class="c2">FnE&& fne</span>, <span class="c3">Fns&&... fns</span>)
+  -> decltype(<span class="c2">fne()</span>)
+{
+  return (!str.empty() && (*str==<span class="c1">Char</span>))
+    ? checkTrie(<span class="c1">Next()</span>, str.substr(1),
+                <span class="c2">(FnE&&)fne</span>, <span class="c3">(Fns&&)fns...</span>)
+    : <span class="c2">fne()</span>;
+}
+
+template &lt;<span class="c1">typename... Transitions</span>,
+          <span class="c2">typename FnE</span>, <span class="c3">typename... Fns</span>>
+constexpr auto checkTrie(
+  TrieNode&lt;<span class="c1">Transitions...</span>> trie,
+  stringview str, <span class="c2">FnE&& fne</span>, <span class="c3">Fns&&... fns</span>)
+  -> decltype(<span class="c2">fne()</span>)
+{
+  return (!str.empty())
+    ? Switch(*str, str.substr(1),
+             trie, <span class="c2">(FnE&&)fne</span>, <span class="c3">(Fns&&)fns...</span>)
+    : <span class="c2">fne()</span>;
+}
+
+template &lt;<span class="c1">unsigned int Index</span>, <span class="c1">typename... Transitions</span>,
+          <span class="c2">typename FnE</span>, <span class="c3">typename... Fns</span>>
+constexpr auto checkTrie(
+  TrieNode&lt;<span class="cm">Transition&lt;-1,int_c&lt;<span class="c1">Index</span>>></span>, <span class="c1">Transitions...</span>>,
+  stringview str, <span class="c2">FnE&& fne</span>, <span class="c3">Fns&&... fns</span>)
+  -> decltype(<span class="c2">fne()</span>)
+{
+  return (str.empty())
+    ? pack_tools::get_index&lt;<span class="c1">Index</span>>(<span class="c3">(Fns&&)fns...</span>)()
+    : checkTrie(TrieNode&lt;<span class="c1">Transitions...</span>>(), str,
+                <span class="c2">(FnE&&)fne</span>, <span class="c3">(Fns&&)fns...</span>);
+}
+  </code></pre>
+</section>
+
+<section>
+  <h2>Trie lookup: Switch i</h2>
+
+  <pre><code>template &lt;...>
+auto Switch(unsigned char ch, stringview str,
+            TrieNode&lt;Transitions...>, FnE&&, Fns&&...)
+  -> decltype(fne())
+{
+  switch (ch) {
+    {
+    case (Transitions::Char):
+      return checkTrie(Transitions::Next(), str,
+                       (FnE&&)fne, (Fns&&)fns...);
+    }...
+  }
+  return fne();
+}</code></pre>
+</section>
+
+<section>
+  <h2>Trie lookup: Switch ii</h2>
+
+  <pre><code>template &lt;int Char0, typename Next0,
+          int Char1, typename Next1,
+          typename FnE,typename... Fns>
+auto Switch(unsigned char ch, stringview str,
+            TrieNode&lt;Transition&lt;Char0,Next0>,
+                     Transition&lt;Char1,Next1>>,
+            FnE&& fne, Fns&&... fns)
+  -> decltype(fne())
+{
+  switch (ch) {
+  case Char0: return checkTrie(Next0(), str, (FnE&&)fne, (Fns&&)fns...);
+  case Char1: return checkTrie(Next1(), str, (FnE&&)fne, (Fns&&)fns...);
+  }
+  return fne();
+}
+  </code></pre>
+</section>
+
+<section>
+  <h2>Trie lookup: Switch iii</h2>
+
+  <pre><code>// TNext obtained by partial specialization!
+next_or_nil&lt;I>(node) =
+   has_base(node, Transition&lt;I, TNext>) ? TNext : nil
+
+type table[256] = { next_or_nil&lt;Is>(node)... };
+// actually: type_array&lt;A00,A01,...> parameter
+
+switch (str[0]):
+  case 0: static_if (is_nil(table[0])): return error;
+    return check(table[0], str[1:])
+  case 1: static_if (is_nil(table[1])): return error;
+    return check(table[1], str[1:])
+  ...
+  case 255:
+    return check(table[255], str[1:])
+  </code></pre>
+</section>
+
+<section>
+  <h2>String literals and TMP</h2>
+
+  Problem: foo<"abc"> as template parameter?!
+
+  <p class="fragment">
+  Idea: "abc"[1] == 'b' is possible
+
+  <div class="fragment">
+  <pre><code>template &lt;unsigned char... Chars>
+struct string_t {
+  static constexpr unsigned int size() {
+    return sizeof...(Chars);
+  }
+  static const char *data() {
+    static constexpr const char data[]={Chars...};
+    return data;
+  }
+};
+
+namespace detail {
+template &lt;typename Str, unsigned int N, unsigned char... Chars>
+struct make_string_t
+  : make_string_t&lt;Str, N-1, Str().chars[N-1], Chars...> {};
+
+template &lt;typename Str, unsigned char... Chars>
+struct make_string_t&lt;Str, 0, Chars...> {
+   typedef string_t&lt;Chars...> type;
+ };
+} // namespace detail
+
+#define CSTR(str) []{ \
+    struct Str { const char *chars = str; }; \
+    return ::detail::make_string_t&lt;Str,sizeof(str)>::type(); \
+  }()</code></pre>
+cstr.h
+  </div>
+</section>
+
+<section>
+  <h2>Building the trie i</h2>
+
+  <pre><code>makeTrie(String0, String1, ..., StringN):
+  for each I=0...N:
+    trie = trieAdd&lt;I, StringI>(trie)</code></pre>
+
+  <pre class="fragment"><code data-noescape>template &lt;unsigned int I>
+constexpr TrieNode&lt;> makeTrie(nil) // nil forces adl
+{ return {}; }
+
+template &lt;unsigned int I,
+          <span class="c1">typename String0</span>, <span class="c2">typename... Strings</span>>
+constexpr auto <span class="c3">makeTrie</span>(nil, <span class="c1">String0</span>, <span class="c2">Strings...</span>)
+  -> decltype(
+    trieAdd&lt;I, <span class="c1">String0</span>>(
+      <span class="c3">makeTrie</span>&lt;I+1>(nil(), <span class="c2">Strings()...</span>)
+    ))
+{ return {}; }</code></pre>
+</section>
+
+<section>
+  <h2>Building the trie ii</h2>
+
+  <pre><code>trieAdd&lt;Index, String>(TrieNode&lt;Transitions...>):
+  insertSorted&lt;Index>(String, TrieNode&lt; | Transitions...>)</pre></code>
+
+  <div class="fragment">
+  insertSorted:
+  <ul>
+    <li>Either there is no transition yet for the next char:<br>
+      Insert new Transition into TrieNode at appropriate position.
+    <li class="fragment">Or, when there is one:<br>
+      Take transition, repeat.
+    <li class="fragment">
+      Start of iteration is <code>(TrieNode<>(), Transitions...)</code>.
+  </ul></div>
+
+</section>
+
+<section>
+  <h2>Building the trie iii</h2>
+
+  <pre><code>trieAdd&lt;Index, String>(TrieNode&lt;Transitions...>):
+  insertSorted&lt;Index>(String, TrieNode&lt; | Transitions...>)</pre></code>
+
+  <pre><code data-noescape>template &lt;<span class="c1">unsigned int Index</span>, <span class="c2">typename String</span>,
+             typename... Transitions>
+constexpr auto trieAdd(TrieNode&lt;Transitions...>)
+  -> decltype(
+    insertSorted&lt;<span class="c1">Index</span>>(
+      nil(), <span class="c2">String()</span>, // nil forces adl
+      TrieNode&lt;>(), Transitions()...))
+{ return {}; }</code></pre>
+</section>
+
+<section>
+  <h2>Building the trie iv: Chains</h2>
+
+  <img src="svg/trie2-1.svg" width="85%" class="plain" style="background: none; margin: 0">
+
+  <pre><code class="lang-cpp">transitionAdd&lt;Index>(string_t&lt;...>) →
+  (string_t&lt;Ch0, Chars...>)
+    = Transition&lt;Ch0,
+                 transitionAdd&lt;Index>(string_t&lt;Chars...>)>
+
+  (string_t&lt;>)
+    = Transition&lt;-1, int_c&lt;Index>>
+
+  (string_t&lt;'\0'>)  // alternative ...
+    = Transition&lt;-1, int_c&lt;Index>></code></pre>
+</section>
+
+<section>
+  <h2>Building the trie v: Chains</h2>
+
+  <pre><code data-noescape>template &lt;<span class="cm">unsigned int Index</span>>
+constexpr Transition&lt;-1, int_c&lt;<span class="cm">Index</span>>>
+<span class="c1">transitionAdd</span class="c1">(nil, string_t&lt;0>)  //  or: string_t&lt;>
+{ return {}; }
+
+template &lt;<span class="cm">unsigned int Index</span>,
+          <span class="c2">unsigned char Ch0</span>, <span class="c3">unsigned char... Chars</span>>
+constexpr Transition&lt;<span class="c2">Ch0</span>, TrieNode&lt;decltype(
+  <span class="c1">transitionAdd</span>&lt;<span class="cm">Index</span>>(nil(), string_t&lt;<span class="c3">Chars...</span>>())
+)>>
+<span class="c1">transitionAdd</span>(nil, string_t&lt;<span class="c2">Ch0</span>, <span class="c3">Chars...</span>>)
+{ return {}; }</code></pre>
+</section>
+
+<section>
+  <h2>Building the trie vi</h2>
+
+  <pre><code class="lang-cpp">insertSorted&lt;Index>(
+  string_t&lt;Ch0, Chars...> s,
+  TrieNode&lt;Prefix... | Transition&lt;Ch,Next>, Transitions...>
+):
+
+  if (Ch>Ch0):
+    TrieNode&lt;Prefix..., transitionAdd&lt;Index>(s),
+             Transition&lt;Ch,Next>, Transitions...>
+
+  else if (Ch==Ch0):
+    TrieNode&lt;Prefix...,
+      Transition&lt;Ch,
+        trieAdd&lt;Index, string_t&lt;Chars...>>(Next())>,
+      Transitions...>
+
+  else // (Ch&lt;Ch0)
+    insertSorted&lt;Index>(s,
+      TrieNode&lt;Prefix...,
+               Transition&lt;Ch, Next> | Transition...>)</code></pre>
+</section>
+
+<section>
+  <h2>Building the trie vii</h2>
+
+  <pre><code data-noescape>template &lt;unsigned int Index,
+          unsigned char... Chars,
+          typename... Prefix, typename... Transitions,
+          typename =Sfinae&lt;<span class="cm">(sizeof...(Chars)==0 ||</span>
+                            <span class="cm">sizeof...(Transitions)==0)</span>>>
+constexpr auto insertSorted(nil,
+  string_t&lt;Chars...> s,
+  TrieNode&lt;Prefix...>, Transitions...)
+  -> TrieNode&lt;Prefix...,
+    decltype(transitionAdd&lt;Index>(nil(), s)),
+    Transitions...>
+{ return {}; }
+
+template &lt;unsigned int Index,
+          unsigned char Ch0, unsigned char... Chars,
+          typename... Prefix,
+          int Ch, typename Next,
+          typename... Transitions,
+          typename =Sfinae&lt;<span class="cm">(Ch>Ch0)</span>>>
+constexpr auto insertSorted(nil,
+  string_t&lt;Ch0, Chars...> s,
+  TrieNode&lt;Prefix...>,
+  Transition&lt;Ch,Next>,
+  Transitions...)
+  -> TrieNode&lt;Prefix...,
+    decltype(transitionAdd&lt;Index>(nil(), s)),
+    Transition&lt;Ch,Next>,
+    Transitions...>
+{ return {}; }
+
+template &lt;unsigned int Index,
+          unsigned char Ch0, unsigned char... Chars,
+          typename... Prefix,
+          int Ch, typename Next,
+          typename... Transitions,
+          typename =Sfinae&lt;<span class="cm">(Ch==Ch0)</span>>>
+constexpr auto insertSorted(nil,
+  string_t&lt;Ch0, Chars...> s,
+  TrieNode&lt;Prefix...>,
+  Transition&lt;Ch, Next>,
+  Transitions...)
+  -> TrieNode&lt;
+    Prefix...,
+    Transition&lt;Ch,
+      decltype(trieAdd&lt;Index, string_t&lt;Chars...>>(Next()))>,
+    Transitions...>
+{ return {}; }
+
+template &lt;unsigned int Index,
+          unsigned char Ch0, unsigned char... Chars,
+          typename... Prefix,
+          int Ch, typename Next,
+          typename... Transitions,
+          typename =Sfinae&lt;<span class="cm">(Ch&lt;Ch0)</span>>>
+constexpr auto insertSorted(nil,
+  string_t&lt;Ch0, Chars...> s,
+  TrieNode&lt;Prefix...>,
+  Transition&lt;Ch, Next>,
+  Transitions...)
+  -> decltype(insertSorted&lt;Index>(nil(), s,
+    TrieNode&lt;Prefix..., Transition&lt;Ch, Next>>(),
+    Transitions()...))
+{ return {}; }
+  </code></pre>
+</section>
+
+<section>
+  <h2>Additional features</h2>
+
+  <pre><code>template &lt;typename TrieNode, typename FnE, typename... Fns>
+constexpr auto checkTrie(TrieNode trie, stringview str,
+                         FnE&& fne,Fns&&... fns)
+  -> decltype(fne())
+{
+  return detail::checkTrie(trie, str,
+                           (FnE&&)fne, (Fns&&)fns...);
+}
+
+// Strings must be string_t
+template &lt;typename... Strings>
+constexpr auto CtTrie::makeTrie(Strings... strs)
+  -> decltype(detail::makeTrie&lt;0>(detail::nil(), strs...))
+{ return {}; }
+
+// ---
+
+auto trie=CtTrie::makeTrie(
+  CSTR("Rosten"),
+  CSTR("Raben"));
+
+// CtTrie::checkTrie(trie, "ab", [&]{...}, [&]{...}, ...);
+
+#include "cttrie-print.h"
+CtTrie::printTrie(trie); // or: decltype(trie)() ...
+  </code></pre>
+
+</section>
+<!---->
+
+<section>
+  <h2>Application: XML</h2>
+
+  <pre><code>  for (node=node->children; node; node=node->next) {
+    if (node->type != XML_ELEMENT_NODE) {
+      continue;
+    }
+    TRIE((const char *)node->name)
+      fprintf(stderr, "Warning: unknown ltconfig/text element: %s\n", (const char *)node->name);
+
+    CASE("in")
+      ensure_onlyattr(node, "!rel at");
+      unique_xmlFree rel(xmlGetProp(node, (const xmlChar *)"rel"));
+      txt.in.rel_loop =
+        TRIE((const char *)rel)
+          throw UsrError("Unknown text/in/@rel value: %s\n", (const char *)rel);
+          return bool(); // needed for return type deduction
+        CASE("in") return false;
+        CASE("loop") return true;
+        ENDTRIE;
+      txt.in.at = get_attr_int(node, "at", 0);
+      parse_fade_only(node, txt.in.fade_duration);
+
+    CASE("out")
+      ensure_onlyattr(node, "at");
+      txt.out.at = get_attr_int(node, "at", 0);
+      parse_fade_only(node, txt.out.fade_duration);
+    ENDTRIE;
+  }
+  </code></pre>
+</section>
+
+<section>
+  <h2>Extensions to cttrie</h2>
+
+  <ul>
+    <li>Partial/substring matching
+    <li>Case insensitive
+    <li>Suffix-at-once
+  </ul>
+
+</section>
+
+<section>
+  <h2>Other approaches</h2>
+
+  <ul>
+    <li>Hashing/Map (runtime)<br>
+        e.g.:
+        <a href="http://llvm.org/doxygen/classllvm_1_1StringSwitch.html">http://llvm.org/doxygen/
+classllvm_1_1StringSwitch.html</a>
+    <li>gprof
+    <li>Extend language?
+  </ul>
+
+</section>
+
+<section>
+  <h1>Questions?</h1>
+
+</section>
+      </div>
+    </div>
+    <script src="js/reveal.js"></script>
+    <script src="js/highlight.js"></script>
+    <script>
+Reveal.initialize({
+  center: false,
+  controlsTutorial: false
+});
+hljs.initHighlightingOnLoad();
+    </script>
+  </body>
+</html>
