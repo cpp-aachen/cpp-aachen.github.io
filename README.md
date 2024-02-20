@@ -5,19 +5,18 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 7. Februar 2024** statt.
-Wir treffen uns ab **18.30 Uhr** bei **Magma**, die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 10. April 2024** statt.
+Wir treffen uns ab **18.30 Uhr** bei **Utimaco**, die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **`std::string::resize_and_overwrite`** (Tobias Hoffmann)
-* **Coroutines in C++20** (Michael Becker)
+* **TBD**
 
 Ort der Veranstaltung:
 
-[**Magma**](https://www.magmasoft.de/)  
-Kackertstraße 16-18  
-52072 Aachen
+[**Utimaco**](https://utimaco.com/)  
+Germanusstraße 4  
+52080 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -25,7 +24,6 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-10\. April 2024  
 5\. Juni 2024  
 7\. August 2024  
 9\. Oktober 2024
