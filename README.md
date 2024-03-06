@@ -10,7 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei **Utimaco**, die Vorträge beginnen ab 19.0
 
 Geplante Vorträge:
 
-* **TBD**
+* **CMake File Sets and Self Contained Headers** (John Franklin Rickard)
+* **How to Read Template Error Messages** (Daniel Evers)
 
 Ort der Veranstaltung:
 
