@@ -1,0 +1,237 @@
+<source>: In instantiation of 'void indented_printer<0, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >::operator()(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)':
+<source>:11:58:   recursively required from 'void indented_printer<19, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >::operator()(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)'
+<source>:11:58:   required from 'void indented_printer<20, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >::operator()(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)'
+<source>:27:43:   required from 'void printIndented<20, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)'
+<source>:33:22:   required from here
+<source>:20:11: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char, std::char_traits<char> >' and 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >')
+   20 |         s << arg;
+      |         ~~^~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/iostream:41,
+                 from <source>:1:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:110:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(std::basic_ostream<char, std::char_traits<char> >& (*)(std::basic_ostream<char, std::char_traits<char> >&))'
+  110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:110:36: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'std::basic_ostream<char, std::char_traits<char> >& (*)(std::basic_ostream<char, std::char_traits<char> >&)'
+  110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:119:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(std::basic_ios<char, std::char_traits<char> >& (*)(std::basic_ios<char, std::char_traits<char> >&))'
+  119 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:119:32: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'std::basic_ios<char, std::char_traits<char> >& (*)(std::basic_ios<char, std::char_traits<char> >&)'
+  119 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:129:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(std::ios_base& (*)(std::ios_base&))'
+  129 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:129:30: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'std::ios_base& (*)(std::ios_base&)'
+  129 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:168:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(long int)'
+  168 |       operator<<(long __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:168:23: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'long int'
+  168 |       operator<<(long __n)
+      |                  ~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:172:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(long unsigned int)'
+  172 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:172:32: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'long unsigned int'
+  172 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:176:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(bool)'
+  176 |       operator<<(bool __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:176:23: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'bool'
+  176 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:880:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:96:5: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(short int)'
+   96 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:97:22: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'short int'
+   97 |     operator<<(short __n)
+      |                ~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:183:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(short unsigned int)'
+  183 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:183:33: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'short unsigned int'
+  183 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:110:5: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(int)'
+  110 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:111:20: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'int'
+  111 |     operator<<(int __n)
+      |                ~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:194:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(unsigned int)'
+  194 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:194:31: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'unsigned int'
+  194 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:203:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(long long int)'
+  203 |       operator<<(long long __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:203:28: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'long long int'
+  203 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:207:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(long long unsigned int)'
+  207 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:207:37: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'long long unsigned int'
+  207 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:222:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(double)'
+  222 |       operator<<(double __f)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:222:25: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'double'
+  222 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:226:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(float)'
+  226 |       operator<<(float __f)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:226:24: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'float'
+  226 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:234:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(long double)'
+  234 |       operator<<(long double __f)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:234:30: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'long double'
+  234 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:292:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(const void*)'
+  292 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:292:30: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'const void*'
+  292 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:297:7: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(std::nullptr_t)'
+  297 |       operator<<(nullptr_t)
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:297:18: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'std::nullptr_t'
+  297 |       operator<<(nullptr_t)
+      |                  ^~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:124:5: note: candidate: 'std::basic_ostream<char, std::char_traits<char> >& std::basic_ostream<char, std::char_traits<char> >::operator<<(std::basic_streambuf<char, std::char_traits<char> >*)'
+  124 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:125:34: note:   no known conversion for argument 1 from 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' to 'std::basic_streambuf<char, std::char_traits<char> >*'
+  125 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/basic_string.h:47,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/string:54,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/locale_classes.h:40,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ios_base.h:41,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ios:44,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:40:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/string_view:760:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)'
+  760 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/string_view:760:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   'std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' is not derived from 'std::basic_string_view<_CharT, _Traits>'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/basic_string.h:4020:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)'
+ 4020 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/basic_string.h:4020:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>'
+   20 |         s << arg;
+      |         ~~^~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/memory_resource.h:38,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/string:58:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/cstddef:124:5: note: candidate: 'template<class _IntegerType> constexpr typename std::__byte_operand<_IntegerType>::__type std::operator<<(byte, _IntegerType)'
+  124 |     operator<<(byte __b, _IntegerType __shift) noexcept
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/cstddef:124:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 's' (type 'std::basic_ostream<char, std::char_traits<char> >') to type 'std::byte'
+   20 |         s << arg;
+      |         ~~^~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ios_base.h:46:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/system_error:339:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const error_code&)'
+  339 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/system_error:339:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'const std::error_code&'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:554:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _CharT)'
+  554 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:554:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   deduced conflicting types for parameter '_CharT' ('char' and 'std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >')
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:564:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, char)'
+  564 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:564:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'char'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:570:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, char)'
+  570 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:570:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'char'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:581:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, signed char)'
+  581 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:581:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'signed char'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:586:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, unsigned char)'
+  586 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:586:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'unsigned char'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:645:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const _CharT*)'
+  645 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:645:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   mismatched types 'const _CharT*' and 'std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:307:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const char*)'
+  307 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/ostream.tcc:307:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'const char*'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:662:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*)'
+  662 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:662:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'const char*'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:675:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const signed char*)'
+  675 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:675:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'const signed char*'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:680:5: note: candidate: 'template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const unsigned char*)'
+  680 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:680:5: note:   template argument deduction/substitution failed:
+<source>:20:11: note:   cannot convert 'arg' (type 'const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >') to type 'const unsigned char*'
+   20 |         s << arg;
+      |         ~~^~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:801:5: note: candidate: 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)'
+  801 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:801:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream: In substitution of 'template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char, std::char_traits<char> >&; _Tp = std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >]':
+<source>:11:58:   recursively required from 'void indented_printer<19, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >::operator()(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)'
+<source>:11:58:   required from 'void indented_printer<20, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >::operator()(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)'
+<source>:27:43:   required from 'void printIndented<20, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::basic_ostream<char, std::char_traits<char> > >(std::basic_ostream<char, std::char_traits<char> >&, const std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&)'
+<source>:33:22:   required from here
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/ostream:801:5: error: no type named 'type' in 'struct std::enable_if<false, void>'
+Compiler returned: 1
