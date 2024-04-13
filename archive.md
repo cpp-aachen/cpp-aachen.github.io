@@ -3,6 +3,16 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2024-04-10
+
+### CMake File Sets
+
+* Titel: ``
+* Autor: John Franklin Rickard
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/johnfranklinrickard)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
+* Folien: [PDF](archive/2024-04-10/2024_04_10_CMake_File_Sets.pdf)
+
 ## 2024-02-07
 
 ### `std::string::resize_and_overwrite`
