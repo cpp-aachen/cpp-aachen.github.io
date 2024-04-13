@@ -124,7 +124,7 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 ## 2022-07-13
 
-### `{ "initializer", "lists", "unleashed"}`
+### `{ "initializer", "lists", "unleashed" }`
 
 * Autor: Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
