@@ -19,8 +19,8 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 * Autor: Daniel Evers
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
-* Folien: [PDF](archive/2024-04-10/how_to_read_template_error_messages/How to read template error messages.pdf)
-* Folien: [Keynote](archive/2024-04-10/how_to_read_template_error_messages/How to read template error messages.key)
+* Folien: [PDF](archive/2024-04-10/how_to_read_template_error_messages/How_to_read_template_error_messages.pdf)
+* Folien: [Keynote](archive/2024-04-10/how_to_read_template_error_messages/How_to_read_template_error_messages.key)
 
 ## 2024-02-07
 
