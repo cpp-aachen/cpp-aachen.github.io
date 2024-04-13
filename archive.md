@@ -7,7 +7,6 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 ### CMake File Sets
 
-* Titel: CMake File Sets and Self Contained Headers
 * Autor: John Franklin Rickard
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/johnfranklinrickard)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
@@ -15,7 +14,6 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 ### How to Read Template Error Messages
 
-* Titel: How to Read Template Error Messages
 * Autor: Daniel Evers
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
@@ -26,7 +24,6 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 ### `std::string::resize_and_overwrite`
 
-* Titel: `std::string::resize_and_overwrite`
 * Autor: Tobias Hoffmann
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
 * Folien: [PDF](archive/2024-02-07/std__string__resize_and_overwrite.pdf)
@@ -35,7 +32,6 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 ### Accessing Private Members the Right Way
 
-* Titel: Accessing Private Members the Right Way
 * Autor: Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
@@ -45,7 +41,6 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 ### Useful Boost Containers
 
-* Titel: Useful Boost Containers
 * Autor: Daniel Evers
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
@@ -70,32 +65,33 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 ### C++ Quiz
 
-* Titel: C++ Quiz
 * Autor: Kilian Henneberger
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/Ukilele/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/kilian-henneberger/)
 * Folien: [PDF](archive/2023-03-08/cpp-quiz/WerWirdMillionaerCpp.pdf)
 
 ### Der Taschenrechner von C++: `<cmath>`
 
-* Titel: Der Taschenrechner von C++: `<cmath>`
 * Autor: Sven Johannsen
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/SvenJo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
 * Folien: [PDF](archive/2023-03-08/cmath-part1/cmath-part1.pdf)
 * Folien: [HTML](archive/2023-03-08/cmath-part1/cmath.html)
 
 ### Women in Tech - The C++ Way
 
-* Titel: Women in Tech - The C++ Way
 * Autor: Markus Werle
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
 
 ## 2023-01-11
 
 ### Fuzzing
 
-* Titel: Fuzzing
 * Autor: Volker Reichelt
 
 ### To Move or Not to Move
 
-* Titel: To Move or Not to Move
 * Autor: Amir Kirsh
 * Folien: [PDF](archive/2023-01-11/to-move-or-not-to-move/ToMoveOrNotToMove_UGAachen2013.pdf)
 * Example: [Compiler Explorer](https://clang-tidy.godbolt.org/z/d835KxcWE)
@@ -104,12 +100,10 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 ### Faster Harder Computer
 
-* Titel: Faster Harder Computer
 * Autor: Andreas Schulz
 
 ### Nested Exceptions und `std::exception_ptr`
 
-* Titel: Nested Exceptions und `std::exception_ptr`
 * Autor: Colin Hirsch
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/ColinH/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/colin-hirsch-18b02442/)
@@ -119,12 +113,10 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 ### Copilot: Programmieren mit KI-Unterstützung
 
-* Titel: Copilot: Programmieren mit KI-Unterstützung
 * Autor: Leonid Oswald
 
 ### Saying Goodbye to Dependency Hell with Git and Modern CMake
 
-* Titel: Saying Goodbye to Dependency Hell with Git and Modern CMake
 * Autor: Markus Werle
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
@@ -134,7 +126,6 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 ### `{ "initializer", "lists", "unleashed"}`
 
-* Titel: `{ "initializer", "lists", "unleashed"}`
 * Autor: Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
@@ -144,7 +135,6 @@ Der Vortrag erklärt die C++ [List-Initialization➚](https://en.cppreference.co
 
 ### C++ Sum~~m~~it
 
-* Titel: C++ Sum~~m~~it
 * Autor: Sven Johannsen
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/SvenJo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
@@ -157,12 +147,10 @@ Der Vortrag untersucht die Möglichkeiten und Beschränkungen von portablem und 
 
 ### Monitoring von C++ Anwendungen mit Prometheus und Grafana
 
-* Titel: Monitoring von C++ Anwendungen mit Prometheus und Grafana
 * Autor: Georg Hellack
 
 ### What is optimization and when is it premature?
 
-* Titel: What is optimization and when is it premature?
 * Autor: Colin Hirsch
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/ColinH/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/colin-hirsch-18b02442/)
@@ -172,7 +160,6 @@ Der Vortrag untersucht die Möglichkeiten und Beschränkungen von portablem und 
 
 ### Coroutines in C++20
 
-* Titel: Coroutines in C++20
 * Autor: Michael Becker
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wickedmic/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/michael-becker-a05369a8/)
@@ -181,7 +168,6 @@ Der Vortrag untersucht die Möglichkeiten und Beschränkungen von portablem und 
 
 ### Code Rot
 
-* Titel: Code Rot
 * Autor: Wolfram Rösler
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wolframroesler/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
@@ -193,7 +179,6 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
 
 ### Deduction Guides for Range Adaptors
 
-* Titel: Deduction Guides for Range Adaptors
 * Autor: Kilian Henneberger
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/Ukilele/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/kilian-henneberger/)
@@ -202,7 +187,6 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
 
 ### Who needs classes when you can have Crazy Generic Lambdas?
 
-* Titel: Who needs classes when you can have Crazy Generic Lambdas?
 * Autor: Markus Werle
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
@@ -210,7 +194,6 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
 
 ### How not to introduce static analysis
 
-* Titel: How not to introduce static analysis
 * Autor: Wolfram Rösler
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wolframroesler/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/wolframroesler/)
@@ -219,7 +202,6 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
 
 ### C/C++ Rounding Cheat Sheet
 
-* Titel: C/C++ Rounding Cheat Sheet
 * Autor: Tobias Hoffmann
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
 * Folien: [PDF](archive/2019-07-11/rounding/C_C++%20Rounding%20Cheat%20Sheet.pdf)
@@ -228,7 +210,6 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
 
 ### switch/case for Strings
 
-* Titel: switch/case for Strings
 * Autor: Tobias Hoffmann
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
 * Folien: [HTML](archive/2018-09-13/string_switch/index.html)
@@ -236,7 +217,8 @@ Software verfault nicht. Man kann den Sourcecode jahrelang aufbewahren und erneu
 
 ## 2015-03-12
 
-* Titlel: Überladene Funktionen einfacher auflösen
+### Überladene Funktionen einfacher auflösen
+
 * Autor: Stefan Pabst
 * Folien: [PDF](archive/2015-03-12/Ueberladene_Funktionen_einfacher_aufloesen/2015-03-12_Stefan_Pabst__ueberladene_Funktionen_einfacher_aufloesen.pdf)
 * Source: [HPP](archive/2015-03-12/Ueberladene_Funktionen_einfacher_aufloesen/Stefans_Static_Caster.hpp)
