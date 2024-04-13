@@ -1,0 +1,176 @@
+example.cpp
+C:/data/msvc/14.38.33133/include\algorithm(7926): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7926): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7926): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7926): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7926): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7926): note: the template instantiation context (the oldest one first) is
+<source>(13): note: see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(const _RanIt,const _RanIt)' being compiled
+        with
+        [
+            _Ty=UserName,
+            _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UserName>>>
+        ]
+C:/data/msvc/14.38.33133/include\algorithm(8086): note: see reference to function template instantiation 'void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)' being compiled
+        with
+        [
+            _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<UserName>>>,
+            _Pr=std::less<void>
+        ]
+C:/data/msvc/14.38.33133/include\algorithm(8081): note: see reference to function template instantiation 'void std::_Sort_unchecked<UserName*,_Fn>(_RanIt,_RanIt,__int64,_Pr)' being compiled
+        with
+        [
+            _Fn=std::less<void>,
+            _RanIt=UserName *,
+            _Pr=std::less<void>
+        ]
+C:/data/msvc/14.38.33133/include\algorithm(8051): note: see reference to function template instantiation '_BidIt std::_Insertion_sort_unchecked<_RanIt,_Pr>(const _BidIt,const _BidIt,_Pr)' being compiled
+        with
+        [
+            _BidIt=UserName *,
+            _RanIt=UserName *,
+            _Pr=std::less<void>
+        ]
+C:/data/msvc/14.38.33133/include\algorithm(7930): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7930): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7930): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7930): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7930): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7983): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7983): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7983): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7983): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7983): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7983): note: the template instantiation context (the oldest one first) is
+C:/data/msvc/14.38.33133/include\algorithm(8062): note: see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+        with
+        [
+            _RanIt=UserName *,
+            _Pr=std::less<void>
+        ]
+C:/data/msvc/14.38.33133/include\algorithm(7984): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7984): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7984): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7984): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7984): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7988): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7988): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7988): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7997): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7997): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7997): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7997): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7997): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(7999): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7999): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(7999): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(7999): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(7999): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(8011): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(8011): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(8011): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(8011): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(8011): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\algorithm(8013): error C3889: call to object of class type 'std::less<void>': no matching call operator found
+C:/data/msvc/14.38.33133/include\type_traits(2449): note: could be 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(8013): note: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const'
+C:/data/msvc/14.38.33133/include\algorithm(8013): note: With the following template arguments:
+C:/data/msvc/14.38.33133/include\algorithm(8013): note: '_Ty1=UserName &'
+C:/data/msvc/14.38.33133/include\algorithm(8013): note: '_Ty2=UserName &'
+C:/data/msvc/14.38.33133/include\type_traits(2451): note: binary '<': 'UserName' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2318): note: could be 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5074): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
+C:/data/msvc/14.38.33133/include\xstring(5069): note: or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xstring(5063): note: or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(4274): note: or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(1706): note: or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\utility(513): note: or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+Compiler returned: 2

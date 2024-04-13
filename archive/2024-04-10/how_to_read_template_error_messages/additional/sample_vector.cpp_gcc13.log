@@ -1,0 +1,104 @@
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_algobase.h:71,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/algorithm:60,
+                 from <source>:1:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h: In instantiation of 'bool __gnu_cxx::__ops::_Iter_equals_val<_Value>::operator()(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<std::vector<int>*, std::vector<std::vector<int> > >; _Value = const int]':
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_algobase.h:2072:14:   required from '_RandomAccessIterator std::__find_if(_RandomAccessIterator, _RandomAccessIterator, _Predicate, random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<vector<int>*, vector<vector<int> > >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const int>]'
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_algobase.h:2117:23:   required from '_Iterator std::__find_if(_Iterator, _Iterator, _Predicate) [with _Iterator = __gnu_cxx::__normal_iterator<vector<int>*, vector<vector<int> > >; _Predicate = __gnu_cxx::__ops::_Iter_equals_val<const int>]'
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_algo.h:3897:28:   required from '_IIter std::find(_IIter, _IIter, const _Tp&) [with _IIter = __gnu_cxx::__normal_iterator<vector<int>*, vector<vector<int> > >; _Tp = int]'
+<source>:7:21:   required from here
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: error: no match for 'operator==' (operand types are 'std::vector<int>' and 'const int')
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_algobase.h:67:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1217:5: note: candidate: 'template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __normal_iterator<_IteratorL, _Container>&, const __normal_iterator<_IteratorR, _Container>&)'
+ 1217 |     operator==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1217:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const __gnu_cxx::__normal_iterator<_IteratorL, _Container>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1225:5: note: candidate: 'template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __normal_iterator<_Iterator, _Container>&, const __normal_iterator<_Iterator, _Container>&)'
+ 1225 |     operator==(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1225:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const __gnu_cxx::__normal_iterator<_Iterator, _Container>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/x86_64-linux-gnu/bits/c++allocator.h:33,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/allocator.h:46,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/vector:63,
+                 from <source>:2:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/new_allocator.h:211:9: note: candidate: 'template<class _Up> bool std::operator==(const __new_allocator<int>&, const __new_allocator<_Tp>&)'
+  211 |         operator==(const __new_allocator&, const __new_allocator<_Up>&)
+      |         ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/new_allocator.h:211:9: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   mismatched types 'const std::__new_allocator<_Tp>' and 'const int'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_algobase.h:64:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_pair.h:812:5: note: candidate: 'template<class _T1, class _T2> constexpr bool std::operator==(const pair<_T1, _T2>&, const pair<_T1, _T2>&)'
+  812 |     operator==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_pair.h:812:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::pair<_T1, _T2>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:448:5: note: candidate: 'template<class _Iterator> constexpr bool std::operator==(const reverse_iterator<_Iterator>&, const reverse_iterator<_Iterator>&)'
+  448 |     operator==(const reverse_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:448:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::reverse_iterator<_Iterator>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:493:5: note: candidate: 'template<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const reverse_iterator<_Iterator>&, const reverse_iterator<_IteratorR>&)'
+  493 |     operator==(const reverse_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:493:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::reverse_iterator<_Iterator>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1678:5: note: candidate: 'template<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const move_iterator<_IteratorL>&, const move_iterator<_IteratorR>&)'
+ 1678 |     operator==(const move_iterator<_IteratorL>& __x,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1678:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::move_iterator<_IteratorL>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1748:5: note: candidate: 'template<class _Iterator> constexpr bool std::operator==(const move_iterator<_IteratorL>&, const move_iterator<_IteratorL>&)'
+ 1748 |     operator==(const move_iterator<_Iterator>& __x,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_iterator.h:1748:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::move_iterator<_IteratorL>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/allocator.h:237:5: note: candidate: 'template<class _T1, class _T2> bool std::operator==(const allocator<_Tp1>&, const allocator<_T2>&)'
+  237 |     operator==(const allocator<_T1>&, const allocator<_T2>&)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/allocator.h:237:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::allocator<_Tp1>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/vector:66:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_vector.h:2037:5: note: candidate: 'template<class _Tp, class _Alloc> bool std::operator==(const vector<_Tp, _Alloc>&, const vector<_Tp, _Alloc>&)'
+ 2037 |     operator==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/stl_vector.h:2037:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   mismatched types 'const std::vector<_Tp, _Alloc>' and 'const int'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+In file included from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/memory_resource.h:47,
+                 from /opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/vector:80:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/tuple:1905:5: note: candidate: 'template<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const tuple<_UTypes ...>&, const tuple<_UTypes ...>&)'
+ 1905 |     operator==(const tuple<_TElements...>& __t,
+      |     ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/tuple:1905:5: note:   template argument deduction/substitution failed:
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/predefined_ops.h:270:24: note:   'std::vector<int>' is not derived from 'const std::tuple<_UTypes ...>'
+  270 |         { return *__it == _M_value; }
+      |                  ~~~~~~^~~~~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/allocator.h:216:7: note: candidate: 'bool std::operator==(const allocator<int>&, const allocator<int>&)'
+  216 |       operator==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |       ^~~~~~~~
+/opt/compiler-explorer/gcc-13.2.0/include/c++/13.2.0/bits/allocator.h:216:18: note:   no known conversion for argument 1 from 'std::vector<int>' to 'const std::allocator<int>&'
+  216 |       operator==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |                  ^~~~~~~~~~~~~~~~
+Compiler returned: 1

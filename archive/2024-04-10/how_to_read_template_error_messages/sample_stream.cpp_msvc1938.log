@@ -1,0 +1,1786 @@
+example.cpp
+<source>(20): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'const Arg' (or there is no acceptable conversion)
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+C:/data/msvc/14.38.33133/include\ostream(480): note: could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:/data/msvc/14.38.33133/include\ostream(448): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:/data/msvc/14.38.33133/include\ostream(430): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:/data/msvc/14.38.33133/include\ostream(412): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:/data/msvc/14.38.33133/include\ostream(394): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:/data/msvc/14.38.33133/include\ostream(376): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:/data/msvc/14.38.33133/include\ostream(358): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:/data/msvc/14.38.33133/include\ostream(340): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:/data/msvc/14.38.33133/include\ostream(322): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:/data/msvc/14.38.33133/include\ostream(303): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:/data/msvc/14.38.33133/include\ostream(277): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:/data/msvc/14.38.33133/include\ostream(258): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:/data/msvc/14.38.33133/include\ostream(224): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:/data/msvc/14.38.33133/include\ostream(206): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:/data/msvc/14.38.33133/include\ostream(200): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:/data/msvc/14.38.33133/include\ostream(194): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:/data/msvc/14.38.33133/include\ostream(189): note: or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+C:/data/msvc/14.38.33133/include\xstring(5193): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+<source>(20): note: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const Arg'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+C:/data/msvc/14.38.33133/include\memory(1978): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+<source>(20): note: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const Arg'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+C:/data/msvc/14.38.33133/include\memory(3629): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+<source>(20): note: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'const Arg'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+C:/data/msvc/14.38.33133/include\ostream(686): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'const char *'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(730): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'char'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(766): note: or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'const char *'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(811): note: or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'char'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(849): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+<source>(20): note: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'const Arg'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+C:/data/msvc/14.38.33133/include\ostream(892): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+<source>(20): note: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+<source>(20): note: could be 'Arg'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: or       'char'
+<source>(20): note: 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'const Arg'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+C:/data/msvc/14.38.33133/include\ostream(928): note: or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'const signed char *'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(934): note: or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'signed char'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(939): note: or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'const unsigned char *'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(945): note: or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'unsigned char'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:/data/msvc/14.38.33133/include\ostream(1003): note: or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+<source>(20): note: '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+C:/data/msvc/14.38.33133/include\ostream(1002): note: '<template-parameter>': you cannot create a pointer to a reference
+C:/data/msvc/14.38.33133/include\ostream(1080): note: or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+<source>(20): note: 'initializing': cannot convert from 'const Arg' to 'const std::error_code &'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: Reason: cannot convert from 'const Arg' to 'const std::error_code'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+<source>(20): note: while trying to match the argument list '(Stream, const Arg)'
+        with
+        [
+            Stream=std::ostream
+        ]
+        and
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(20): note: the template instantiation context (the oldest one first) is
+<source>(33): note: see reference to function template instantiation 'void printIndented<20,std::vector<std::string,std::allocator<std::string>>,std::ostream>(Stream &,const Arg &)' being compiled
+        with
+        [
+            Stream=std::ostream,
+            Arg=std::vector<std::string,std::allocator<std::string>>
+        ]
+<source>(27): note: see reference to class template instantiation 'indented_printer<20,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<20,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<19,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<19,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<18,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<18,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<17,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<17,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<16,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<16,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<15,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<15,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<14,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<14,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<13,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<13,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<12,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<12,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<11,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<11,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<10,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<10,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<9,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<9,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<8,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<8,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<7,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<7,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<6,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<6,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<5,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<5,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<5,Arg,Stream>::operator ()' in 'indented_printer<6,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<4,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<4,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<4,Arg,Stream>::operator ()' in 'indented_printer<5,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<5,Arg,Stream>::operator ()' in 'indented_printer<6,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<3,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<3,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<3,Arg,Stream>::operator ()' in 'indented_printer<4,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<4,Arg,Stream>::operator ()' in 'indented_printer<5,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<5,Arg,Stream>::operator ()' in 'indented_printer<6,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<2,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<2,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<2,Arg,Stream>::operator ()' in 'indented_printer<3,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<3,Arg,Stream>::operator ()' in 'indented_printer<4,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<4,Arg,Stream>::operator ()' in 'indented_printer<5,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<5,Arg,Stream>::operator ()' in 'indented_printer<6,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<1,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(8): note: while compiling class template member function 'void indented_printer<1,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<1,Arg,Stream>::operator ()' in 'indented_printer<2,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<2,Arg,Stream>::operator ()' in 'indented_printer<3,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<3,Arg,Stream>::operator ()' in 'indented_printer<4,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<4,Arg,Stream>::operator ()' in 'indented_printer<5,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<5,Arg,Stream>::operator ()' in 'indented_printer<6,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see reference to class template instantiation 'indented_printer<0,Arg,Stream>' being compiled
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(18): note: while compiling class template member function 'void indented_printer<0,Arg,Stream>::operator ()(Stream &,const Arg &)'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<0,Arg,Stream>::operator ()' in 'indented_printer<1,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<1,Arg,Stream>::operator ()' in 'indented_printer<2,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<2,Arg,Stream>::operator ()' in 'indented_printer<3,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<3,Arg,Stream>::operator ()' in 'indented_printer<4,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<4,Arg,Stream>::operator ()' in 'indented_printer<5,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<5,Arg,Stream>::operator ()' in 'indented_printer<6,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<6,Arg,Stream>::operator ()' in 'indented_printer<7,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<7,Arg,Stream>::operator ()' in 'indented_printer<8,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<8,Arg,Stream>::operator ()' in 'indented_printer<9,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<9,Arg,Stream>::operator ()' in 'indented_printer<10,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<10,Arg,Stream>::operator ()' in 'indented_printer<11,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<11,Arg,Stream>::operator ()' in 'indented_printer<12,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<12,Arg,Stream>::operator ()' in 'indented_printer<13,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<13,Arg,Stream>::operator ()' in 'indented_printer<14,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<14,Arg,Stream>::operator ()' in 'indented_printer<15,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<15,Arg,Stream>::operator ()' in 'indented_printer<16,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<16,Arg,Stream>::operator ()' in 'indented_printer<17,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<17,Arg,Stream>::operator ()' in 'indented_printer<18,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<18,Arg,Stream>::operator ()' in 'indented_printer<19,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(11): note: see the first reference to 'indented_printer<19,Arg,Stream>::operator ()' in 'indented_printer<20,Arg,Stream>::operator ()'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+<source>(27): note: see the first reference to 'indented_printer<20,Arg,Stream>::operator ()' in 'printIndented'
+        with
+        [
+            Arg=std::vector<std::string,std::allocator<std::string>>,
+            Stream=std::ostream
+        ]
+Compiler returned: 2

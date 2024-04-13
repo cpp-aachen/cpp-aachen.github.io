@@ -1,0 +1,30 @@
+example.cpp
+C:/data/msvc/14.38.33133/include\xutility(5823): error C2676: binary '==': 'std::vector<int,std::allocator<int>>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:/data/msvc/14.38.33133/include\vector(2229): note: could be 'bool std::operator ==(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
+C:/data/msvc/14.38.33133/include\xutility(5823): note: 'bool std::operator ==(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': could not deduce template argument for 'const std::vector<_Ty,_Alloc> &' from 'const _Ty'
+        with
+        [
+            _Ty=int
+        ]
+C:/data/msvc/14.38.33133/include\xmemory(1038): note: or       'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept'
+C:/data/msvc/14.38.33133/include\xutility(5823): note: 'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept': could not deduce template argument for 'const std::allocator<_Ty> &' from 'std::vector<int,std::allocator<int>>'
+C:/data/msvc/14.38.33133/include\xutility(4251): note: or       'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(5823): note: 'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'std::vector<int,std::allocator<int>>'
+C:/data/msvc/14.38.33133/include\xutility(1676): note: or       'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:/data/msvc/14.38.33133/include\xutility(5823): note: 'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'std::vector<int,std::allocator<int>>'
+C:/data/msvc/14.38.33133/include\utility(490): note: or       'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)'
+C:/data/msvc/14.38.33133/include\xutility(5823): note: 'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Uty1,_Uty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'std::vector<int,std::allocator<int>>'
+C:/data/msvc/14.38.33133/include\xutility(5823): note: the template instantiation context (the oldest one first) is
+<source>(7): note: see reference to function template instantiation '_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(_InIt,const _InIt,const int &)' being compiled
+        with
+        [
+            _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::vector<int,std::allocator<int>>>>>,
+            _Ty=std::vector<int,std::allocator<int>>
+        ]
+C:/data/msvc/14.38.33133/include\xutility(5837): note: see reference to function template instantiation '_InIt std::_Find_unchecked<std::vector<int,std::allocator<int>>*,_Ty>(_InIt,const _InIt,const _Ty &)' being compiled
+        with
+        [
+            _InIt=std::vector<int,std::allocator<int>> *,
+            _Ty=int
+        ]
+Compiler returned: 2
