@@ -5,19 +5,18 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 10. April 2024** statt.
-Wir treffen uns ab **18.30 Uhr** bei **Utimaco**, die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 5. Juni 2024** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **CMake File Sets and Self Contained Headers** (John Franklin Rickard)
-* **How to Read Template Error Messages** (Daniel Evers)
+* **TDB**
 
 Ort der Veranstaltung:
 
-[**Utimaco**](https://utimaco.com/)  
-Germanusstraße 4  
-52080 Aachen
+[**ModuleWorks**](https://www.moduleworks.com/)  
+Henricistraße 50-52  
+52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -25,7 +24,6 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-5\. Juni 2024  
 7\. August 2024  
 9\. Oktober 2024
 

@@ -7,11 +7,20 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 ### CMake File Sets
 
-* Titel: ``
+* Titel: CMake File Sets and Self Contained Headers
 * Autor: John Franklin Rickard
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/johnfranklinrickard)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
 * Folien: [PDF](archive/2024-04-10/2024_04_10_CMake_File_Sets.pdf)
+
+### How to Read Template Error Messages
+
+* Titel: How to Read Template Error Messages
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+* Folien: [PDF](archive/2024-04-10/how_to_read_template_error_messages/How to read template error messages.pdf)
+* Folien: [Keynote](archive/2024-04-10/how_to_read_template_error_messages/How to read template error messages.key)
 
 ## 2024-02-07
 
@@ -53,6 +62,8 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 ### Writing A Pimpl Wrapper
 
 * Autor: John Franklin Rickard
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/johnfranklinrickard)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
 * Folien: [PDF](archive/2023-10-25/Writing_A_Pimpl_Wrapper/2023_10_15_Writing_A_Pimpl_Wrapper.pdf)
 
 ## 2023-03-08
