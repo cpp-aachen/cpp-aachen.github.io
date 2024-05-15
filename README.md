@@ -10,7 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.c
 
 Geplante Vorträge:
 
-* **TDB**
+* **WTF-8** (Daniel Frey)
+* **DIY Pacemaker** (Markus Werle)
 
 Ort der Veranstaltung:
 
