@@ -11,7 +11,7 @@ Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.c
 Geplante Vorträge:
 
 * **WTF-8** (Daniel Frey)
-* **DIY Pacemaker** (Markus Werle)
+* **DIY-Pacemaker - What Could Possibly Go Wrong? Part 0** (Markus Werle)
 
 Ort der Veranstaltung:
 
