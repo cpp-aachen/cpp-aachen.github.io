@@ -3,6 +3,23 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2024-06-05
+
+### WTF-8
+
+* Autor: Daniel Frey
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
+* Folien: [PDF](archive/2024-06-05/wtf_8/WTF-8.pdf)
+
+Eine kleine Rundreise durch die Geschichte der Sprache, Computer und Unicode - und wie wir alles durcheinander gebracht haben.
+
+### Introduction to `ranges` (std & v3)
+
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+
 ## 2024-04-10
 
 ### CMake File Sets
