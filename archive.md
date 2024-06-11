@@ -19,8 +19,8 @@ Eine kleine Rundreise durch die Geschichte der Sprache, Computer und Unicode - u
 * Autor: Daniel Evers
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
-* Folien: [PDF](2024-06-05/introduction_to_ranges/Introduction_to_ranges.pdf)
-* Folien: [Keynote](2024-06-05/introduction_to_ranges/Introduction_to_ranges.key)
+* Folien: [PDF](archive/2024-06-05/introduction_to_ranges/Introduction_to_ranges.pdf)
+* Folien: [Keynote](archive/2024-06-05/introduction_to_ranges/Introduction_to_ranges.key)
 
 
 ## 2024-04-10
