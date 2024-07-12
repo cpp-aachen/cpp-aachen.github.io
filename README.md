@@ -6,17 +6,16 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 # Termine
 
 Das nächste Treffen findet am **Mittwoch, den 7. August 2024** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**SLB**](https://www.slb.com/), die Vorträge beginnen ab 19.00 Uhr.
+Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **DIY-Pacemaker - What Could Possibly Go Wrong? Part 0** (Markus Werle)
-* ...
+* **modm: a barebone embedded library generator** (Raphael Lehmann)
 
 Ort der Veranstaltung:
 
-[**SLB**](https://www.slb.com/) (ehemals Schlumberger)  
-Ritterstraße 23  
+[**Magma**](https://www.magmasoft.de/)  
+Kackertstraße 16-18  
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
