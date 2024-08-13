@@ -5,18 +5,18 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 7. August 2024** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 9. Oktober 2024** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **modm: a barebone embedded library generator** (Raphael Lehmann)
+* *TBD*
 
 Ort der Veranstaltung:
 
-[**Magma**](https://www.magmasoft.de/)  
-Kackertstraße 16-18  
-52072 Aachen
+[**Utimaco**](https://utimaco.com/)  
+Germanusstraße 4  
+52080 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -24,7 +24,6 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-9\. Oktober 2024  
 4\. Dezember 2024
 
 # Vorträge
