@@ -11,7 +11,7 @@ Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vo
 Geplante Vorträge:
 
 * **`std::ignore` C++26, use C++11** (Sven Johannsen)
-* **Introduction to Google Test** (Daniel Evers)
+* **Introduction to Google Test and Google Mock** (Daniel Evers)
 
 Ort der Veranstaltung:
 
