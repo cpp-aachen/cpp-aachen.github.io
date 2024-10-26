@@ -5,19 +5,16 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 9. Oktober 2024** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 4. Dezember 2024** statt.
+Wir treffen uns ab **18.30 Uhr** bei *TDB*, die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **`std::ignore` C++26, use C++11** (Sven Johannsen)
-* **Introduction to Google Test and Google Mock** (Daniel Evers)
+* *TDB*
 
 Ort der Veranstaltung:
 
-[**Utimaco**](https://utimaco.com/)  
-Germanusstraße 4  
-52080 Aachen
+* *TDB*
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
