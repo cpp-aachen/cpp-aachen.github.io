@@ -3,6 +3,22 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2024-10-09
+
+### `std::ignore` C++26, use C++11
+
+* Autor: Sven Johannsen
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/SvenJo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
+
+### Introduction to Google Test and Google Mock
+
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+* Folien: [PDF](archive/2024-10-09/introduction_googletest_googlemock/GoogleTest_GoogleMock.pdf)
+* Folien: [Keynote](archive/2024-10-09/introduction_googletest_googlemock/GoogleTest_GoogleMock.key)
+
 ## 2024-08-07
 
 ### modm: a barebone embedded library generator
