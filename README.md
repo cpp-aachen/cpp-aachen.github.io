@@ -22,7 +22,12 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-4\. Dezember 2024
+5\. Februar 2025
+2\. April 2025
+4\. Juni 2025
+6\. August 2025
+1\. Oktober 2025
+3\. Dezember 2025
 
 # Vorträge
 
