@@ -10,7 +10,7 @@ Wir treffen uns ab **18.30 Uhr** bei *TDB*, die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* *TDB*
+* **The Concept of Polymorphism in C++** (Markus Werle)
 
 Ort der Veranstaltung:
 
