@@ -3,6 +3,16 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2024-12-04
+
+### The Concept of Polymorphism in C++
+
+* Autor: Markus Werle
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
+* Folien: [Online](https://www.daixtrose.de/talks/cplusplus-primer/talks/polymorphism/presentation.html)
+* Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose/cplusplus-primer/tree/main/polymorphism)
+
 ## 2024-10-09
 
 ### `std::ignore` C++26, use C++11

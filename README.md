@@ -5,17 +5,17 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 4. Dezember 2024** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.com/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 5. Februar 2025** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **The Concept of Polymorphism in C++** (Markus Werle)
+* *TBD*
 
 Ort der Veranstaltung:
 
-[**ModuleWorks**](https://www.moduleworks.com/)  
-Henricistraße 50-52  
+[**Magma**](https://www.magmasoft.de/)  
+Kackertstraße 16-18  
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
@@ -24,8 +24,7 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 5\. Februar 2025
-* 2\. April 2025
+* 2\. April 2025 (Utimaco)
 * 4\. Juni 2025
 * 6\. August 2025
 * 1\. Oktober 2025
