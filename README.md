@@ -10,7 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die
 
 Geplante Vorträge:
 
-* *TBD*
+* **Matching Signatures with Concepts** (Michael Becker)
+* **Dot. Dot. Dot.** (Daniel Frey)
 
 Ort der Veranstaltung:
 
