@@ -54,7 +54,6 @@ Die C++ User Gruppe Aachen wird organisiert von
 * Detlef Wilkening
 * Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
-  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
 * Kilian Henneberger
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/Ukilele/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/kilian-henneberger/)

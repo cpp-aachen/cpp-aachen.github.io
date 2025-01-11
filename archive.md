@@ -42,7 +42,6 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 * Autor: Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
-  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
 * Folien: [PDF](archive/2024-06-05/wtf_8/WTF-8.pdf)
 
 Eine kleine Rundreise durch die Geschichte der Sprache, Computer und Unicode - und wie wir alles durcheinander gebracht haben.
@@ -86,7 +85,6 @@ Eine kleine Rundreise durch die Geschichte der Sprache, Computer und Unicode - u
 
 * Autor: Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
-  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
 * Folien: [PDF](archive/2023-11-29/access_private_members/AccessPrivateMembers.pdf)
 
 In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cppreference.com/w/cpp/language/access) Member einer Klasse hilfreich oder notwendig sein. Dieser Vortrag zeigt eine einfache, skalierbare und standardkonforme Technik dies zu tun.
@@ -180,7 +178,6 @@ In manchen Situationen kann der Zugriff auf die [privaten➚](https://en.cpprefe
 
 * Autor: Daniel Frey
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
-  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-frey-22553487/)
 * Folien: [PDF](archive/2022-07-13/initializer-lists-unleashed/InitializerListsUnleashed.pdf)
 
 Der Vortrag erklärt die C++ [List-Initialization➚](https://en.cppreference.com/w/cpp/language/list_initialization) und zeigt, wie man rekursive Strukturen wie z.B. [JSON➚](https://en.wikipedia.org/wiki/JSON) Objekte effizient mit der List-Initialization erzeugen kann.
