@@ -20,6 +20,7 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 * Autor: Sven Johannsen
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/SvenJo/)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
+* Folien: [PDF](archive/2024-10-09/std_ignore/std_ignore_Cpp-26,-use-Cpp-11.pdf)
 
 ### Introduction to Google Test and Google Mock
 
