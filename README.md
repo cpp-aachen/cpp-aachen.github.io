@@ -11,7 +11,7 @@ Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die
 Geplante Vorträge:
 
 * **Matching Signatures with Concepts** (Michael Becker)
-* **Dot. Dot. Dot.** (Daniel Frey)
+* **Understanding Your Monad - An Intuitive Approach To Monads** (Stephan Roslen)
 
 Ort der Veranstaltung:
 
