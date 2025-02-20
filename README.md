@@ -5,19 +5,18 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 5. Februar 2025** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 2. April 2025** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Matching Signatures with Concepts** (Michael Becker)
-* **Understanding Your Monad - An Intuitive Approach To Monads** (Stephan Roslen)
+* *TBD*
 
 Ort der Veranstaltung:
 
-[**Magma**](https://www.magmasoft.de/)  
-Kackertstraße 16-18  
-52072 Aachen
+[**Utimaco**](https://utimaco.com/)  
+Germanusstraße 4  
+52080 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -26,10 +25,10 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
 * 2\. April 2025 (Utimaco)
-* 4\. Juni 2025
-* 6\. August 2025
-* 1\. Oktober 2025
-* 3\. Dezember 2025
+* 4\. Juni 2025 (ModuleWorks)
+* 6\. August 2025 (SLB)
+* 1\. Oktober 2025 (Magma)
+* 3\. Dezember 2025 (Utimaco)
 
 # Vorträge
 
