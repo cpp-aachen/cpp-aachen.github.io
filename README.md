@@ -24,7 +24,6 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 2\. April 2025 (Utimaco)
 * 4\. Juni 2025 (ModuleWorks)
 * 6\. August 2025 (SLB)
 * 1\. Oktober 2025 (Magma)
