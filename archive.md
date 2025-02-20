@@ -3,6 +3,18 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2025-02-05
+
+### Matching Signatures with Concepts
+
+* Autor: Michael Becker
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/wickedmic/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/michael-becker-a05369a8/)
+
+### Understanding Your Monad - An Intuitive Approach To Monads
+
+* Autor: Stephan Roslen
+
 ## 2024-12-04
 
 ### The Concept of Polymorphism in C++
