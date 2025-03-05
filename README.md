@@ -10,7 +10,9 @@ Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vo
 
 Geplante Vorträge:
 
-* *TBD*
+* **include-what-you-use** (Paul Targosz)
+* **C++20 - the small things, part 1** (Daniel Evers)
+* **Back to basics: Continuation optional, expected, and future** (John Franklin Rickard)
 
 Ort der Veranstaltung:
 
