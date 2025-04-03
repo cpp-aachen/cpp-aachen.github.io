@@ -3,6 +3,15 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2025-04-02
+
+### Back to Basics: Continuation optional, expected, and future
+
+* Autor: John Franklin Rickard
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/johnfranklinrickard)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
+* Folien: [PDF](archive/2025-04-02/ContinuationOptionalExpectedFuture.pdf)
+
 ## 2025-02-05
 
 ### Matching Signatures with Concepts
