@@ -12,6 +12,14 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
 * Folien: [PDF](archive/2025-04-02/ContinuationOptionalExpectedFuture.pdf)
 
+### include-what-you-use 
+
+* Autor: Paul Targosz
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/Sickeroni/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/paul-targosz/)
+* Folien: [Online](https://sickeroni.github.io/talk_ugaachen2025april_slides/)
+* Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/Sickeroni/talk_ugaachen2025april_code)
+
 ## 2025-02-05
 
 ### Matching Signatures with Concepts
