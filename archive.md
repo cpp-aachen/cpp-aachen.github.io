@@ -12,6 +12,13 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
 * Folien: [PDF](archive/2025-04-02/ContinuationOptionalExpectedFuture.pdf)
 
+### C++20 - the small things (part 1)
+
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+* Folien: [PDF](archive/2025-04-02/C++20_the_small_things_1.pdf)
+
 ### include-what-you-use 
 
 * Autor: Paul Targosz
