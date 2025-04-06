@@ -10,7 +10,7 @@ Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.c
 
 Geplante Vorträge:
 
-* **Absolute Regeln, best Practices und ihre Grenzen** (Klaus Wittich)
+* **Absolute Regeln, best Practices und ihre Grenzen** (Klaus Wittlich)
 * **Advanced GoogleTest & GoogleMock usage** (Daniel Evers)
 
 Ort der Veranstaltung:
