@@ -5,20 +5,19 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 2. April 2025** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 4. Juni 2025** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **include-what-you-use** (Paul Targosz)
-* **C++20 - the small things, part 1** (Daniel Evers)
-* **Back to basics: Continuation optional, expected, and future** (John Franklin Rickard)
+* **Absolute Regeln, best Practices und ihre Grenzen** (Klaus Wittich)
+* **Advanced GoogleTest & GoogleMock usage** (Daniel Evers)
 
 Ort der Veranstaltung:
 
-[**Utimaco**](https://utimaco.com/)  
-Germanusstraße 4  
-52080 Aachen
+[**ModuleWorks**](https://www.moduleworks.com/)  
+Henricistraße 50-52  
+52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -26,7 +25,6 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 4\. Juni 2025 (ModuleWorks)
 * 6\. August 2025 (SLB)
 * 1\. Oktober 2025 (Magma)
 * 3\. Dezember 2025 (Utimaco)
