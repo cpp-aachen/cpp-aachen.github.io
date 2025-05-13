@@ -72,6 +72,12 @@ Die C++ User Gruppe Aachen wird organisiert von
 
 Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
 
+# 🏳️‍🌈 `include<C++>` 🏳️‍🌈
+
+Unser Ziel ist es, einen inklusiven und sicheren Ort für alle zu bieten, unabhängig von Hautfarbe, sexueller Orientierung oder anderen persönlichen Aspekten. 
+
+Für unsere Veranstaltungen benennen wir daher jeweils mindestens eine Person, die angesprochen werden kann. Bitte zögert nicht, die benannte Person oder ein anderes Teammitglied um Unterstützung zu bitten.
+
 # Partner
 
 Die folgenden Firmen stellen freundlicherweise Räume und Bewirtung zur Verfügung, vielen Dank dafür!
