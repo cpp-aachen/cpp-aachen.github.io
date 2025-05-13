@@ -76,9 +76,9 @@ Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
 
 # 🏳️‍🌈 `include<C++>` 🏳️‍🌈
 
-Unser Ziel ist es, einen inklusiven und sicheren Ort für alle zu bieten, unabhängig von Hautfarbe, sexueller Orientierung oder anderen persönlichen Aspekten. Für unsere Veranstaltungen benennen wir daher jeweils mindestens eine Person, die das Hausrecht ausübt. Diese hat die Befugnis, jeden Vorfall zu untersuchen, eine Klärung herbeizuführen und nach eigenem Ermessen diejenigen, die andere Teilnehmende beleidigen oder belästigen, vom weiteren Verbleib auf der Veranstaltung auszuschließen. 
+Unser Ziel ist es, einen inklusiven und sicheren Ort für alle zu bieten, unabhängig von Hautfarbe, sexueller Orientierung oder anderen persönlichen Aspekten. 
 
-Mit der Teilnahme an unseren Veranstaltungen erklären alle ihr Einverständnis mit dieser Regelung. Bitte zögert nicht, die benannte Person oder ein anderes Teammitglied um Unterstützung zu bitten.
+Für unsere Veranstaltungen benennen wir daher jeweils mindestens eine Person, die angesprochen werden kann. Bitte zögert nicht, die benannte Person oder ein anderes Teammitglied um Unterstützung zu bitten.
 
 # Partner
 
