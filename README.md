@@ -23,10 +23,10 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 ## Nächste Termine
 
-Wir streben einen zwei-monatigen Rhythmus an, vorläufige Termine sind:
+Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 6\. August 2025 (SLB)
-* 1\. Oktober 2025 (Magma)
+* 3\. September 2025 (SLB)
+* 8\. Oktober 2025 (Magma)
 * 3\. Dezember 2025 (Utimaco)
 
 # Vorträge
