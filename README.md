@@ -10,7 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei [**SLB**](https://www.slb.com/), die Vortr�
 
 Geplante Vorträge:
 
-* **tdb**
+* **Dot. Dot. Dot.** (Daniel Frey)
+* **Missing (and future?) C++ range concepts** (Jonathan Müller)
 
 Ort der Veranstaltung:
 
