@@ -3,6 +3,19 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2025-09-03
+
+### Dot. Dot. Dot.
+
+* Autor: Daniel Frey
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/d-frey/)
+* Folien: [PDF](archive/2025-09-03/DotDotDot.pdf)
+
+### Missing (and future?) C++ range concepts
+
+* Autor: Jonathan Müller
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/foonathan/)
+
 ## 2025-06-04
 
 ### Advanced testing with GoogleTest & GoogleMock

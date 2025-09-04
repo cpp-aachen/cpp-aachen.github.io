@@ -5,18 +5,17 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 3. September 2025** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**SLB**](https://www.slb.com/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 8. Oktober 2025** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Dot. Dot. Dot.** (Daniel Frey)
-* **Missing (and future?) C++ range concepts** (Jonathan Müller)
+* **libCAGL - The Computational Geometry Algorithms Library** (Mirco Müller)
 
 Ort der Veranstaltung:
 
-[**SLB**](https://www.slb.com/) (ehemals Schlumberger)  
-Ritterstraße 23  
+[**Magma**](https://www.magmasoft.de/)  
+Kackertstraße 16-18  
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
@@ -25,7 +24,6 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 8\. Oktober 2025 (Magma)
 * 3\. Dezember 2025 (Utimaco)
 
 # Vorträge
@@ -73,7 +71,7 @@ Bei Fragen, Anregungen, Kritik, Problemen... sprecht uns einfach an.
 
 # 🏳️‍🌈 `include<C++>` 🏳️‍🌈
 
-Unser Ziel ist es, einen inklusiven und sicheren Ort für alle zu bieten, unabhängig von Hautfarbe, sexueller Orientierung oder anderen persönlichen Aspekten. 
+Unser Ziel ist es, einen inklusiven und sicheren Ort für alle zu bieten, unabhängig von Hautfarbe, sexueller Orientierung oder anderen persönlichen Aspekten.
 
 Für unsere Veranstaltungen benennen wir daher jeweils mindestens eine Person, die angesprochen werden kann. Bitte zögert nicht, die benannte Person oder ein anderes Teammitglied um Unterstützung zu bitten.
 
