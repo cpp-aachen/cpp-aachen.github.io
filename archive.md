@@ -15,6 +15,7 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 
 * Autor: Jonathan Müller
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/foonathan/)
+* Folien: [PDF](archive/2025-09-03/MissingRanges.pdf)
 
 ## 2025-06-04
 
