@@ -10,6 +10,7 @@ Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die
 
 Geplante Vorträge:
 
+* **It's dangerously verbose to go alone - take this (explicitly)** (Stephan Roslen)
 * **libCAGL - The Computational Geometry Algorithms Library** (Mirco Müller)
 
 Ort der Veranstaltung:
