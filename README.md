@@ -19,13 +19,20 @@ Ort der Veranstaltung:
 Germanusstraße 4  
 52080 Aachen
 
+Hinweis: Bitte den Eingang auf der Alt-Haarener Straße 36 benutzen.
+
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
 ## Nächste Termine
 
 Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 3\. Dezember 2025 (Utimaco)
+* 4\. Februar 2026 (ModuleWorks)
+* 1\. April 2026 (SLB)
+* 3\. Juni 2026 (Magma)
+* 5\. August 2026 (Utimaco)
+* 7\. Oktober 2026 (ModuleWorks)
+* 2\. Dezember 2026 (SLB)
 
 # Vorträge
 
