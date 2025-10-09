@@ -5,19 +5,19 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 8. Oktober 2025** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 3. Dezember 2025** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **It's dangerously verbose to go alone - take this (explicitly)** (Stephan Roslen)
-* **libCGAL - The Computational Geometry Algorithms Library** (Mirco Müller)
+* **Safer integer handling with modern C++** (John Franklin Rickard)
+* **ASIO & Coro - Networking Programming with C++20 Coroutines** (Peter Eisenlohr)
 
 Ort der Veranstaltung:
 
-[**Magma**](https://www.magmasoft.de/)  
-Kackertstraße 16-18  
-52072 Aachen
+[**Utimaco**](https://utimaco.com/)  
+Germanusstraße 4  
+52080 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
