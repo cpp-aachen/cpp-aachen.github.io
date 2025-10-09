@@ -3,6 +3,18 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2025-10-08
+
+### It's dangerously verbose to go alone - take this (explicitly)
+
+* Autor: Stephan Roslen
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/stephanroslen/)
+
+### libCGAL - The Computational Geometry Algorithms Library
+
+* Autor: Mirco Müller
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/MacSlow/)
+
 ## 2025-09-03
 
 ### Dot. Dot. Dot.
