@@ -34,6 +34,12 @@ Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
 * 7\. Oktober 2026 (ModuleWorks)
 * 2\. Dezember 2026 (SLB)
 
+## Elektronischer Kalender 
+
+Der jeweils aktuellste Stand der Planung befindet sich unter<br>[`https://github.com/cpp-aachen/cpp-aachen.github.io/releases/download/latest/cpp-aachen.ics`](https://github.com/cpp-aachen/cpp-aachen.github.io/releases/download/latest/cpp-aachen.ics). 
+
+Diesen Kalender kann man sich durch Angabe der URL in der eigenen Kalender-App auf dem Mobiltelefon oder dem entsprechenden Programm (Outlook, Thunderbird) abonnieren und bleibt so immer auf dem neuesten Stand.  
+
 # Vorträge
 
 Die Treffen leben von *euren* Vorträgen, meldet euch gerne mit euren Vorschlägen und Ideen.
