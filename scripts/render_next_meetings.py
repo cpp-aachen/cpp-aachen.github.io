@@ -76,7 +76,7 @@ def format_markdown(events, limit=None):
                             .replace("Sunday","Sonntag")
 
 
-        parts = ['- ### ' + f"{date_str}"]
+        parts = ['- **' + f"{date_str}" + 'Uhr**']
                 
         if e["location"]:
 
@@ -91,13 +91,10 @@ def format_markdown(events, limit=None):
         desc = e["description"].strip() if e["description"] else ""
 
         if (desc != ""):
-            parts.append("  - **Vorträge**\n")
+            parts.append("  - Vorträge\n")
 
-            if "&" in desc:
-                parts.append("    - ")    
-                parts.append(desc.replace("\n", "\n    - "))
-            else:
-                parts.append(desc)
+            parts.append("    - ")    
+            parts.append(desc.replace("\n", "\n    - "))
 
             parts.append("\n")    
 
