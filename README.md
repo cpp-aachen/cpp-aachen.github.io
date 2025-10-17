@@ -27,12 +27,7 @@ Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-
 
 Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
 
-* 4\. Februar 2026 (ModuleWorks)
-* 1\. April 2026 (SLB)
-* 3\. Juni 2026 (Magma)
-* 5\. August 2026 (Utimaco)
-* 7\. Oktober 2026 (ModuleWorks)
-* 2\. Dezember 2026 (SLB)
+{{ NEXT_MEETINGS }}
 
 ## Elektronischer Kalender 
 
