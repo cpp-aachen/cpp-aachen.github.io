@@ -80,7 +80,7 @@ def format_markdown(events, limit=None):
                 
         if e["location"]:
 
-            location_text = "\n  - [" \
+            location_text = ", [" \
                 + e["location"] \
                 + "](https://www.google.com/maps/search/?api=1&query=" \
                 + e["location"].replace(" ", "+") \
@@ -91,10 +91,8 @@ def format_markdown(events, limit=None):
         desc = e["description"].strip() if e["description"] else ""
 
         if (desc != ""):
-            parts.append("  - Vorträge\n")
-
-            parts.append("    - ")    
-            parts.append(desc.replace("\n", "\n    - "))
+            parts.append("  - ")    
+            parts.append(desc.replace("\n", "\n  - "))
 
             parts.append("\n")    
 
