@@ -3,6 +3,15 @@
   "events": [
     {
       "summary": "C++ User Group Aachen",
+      "location": "Guinness House, Neupforte 6, 52062 Aachen",
+      "start": "2025-12-03T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "Und nachher noch nett zusammensitzen",
+      "url": "http://www.guinnesshouse.de",
+      "end": "2025-12-04T01:00:00"
+    },
+    {
+      "summary": "C++ User Group Aachen",
       "location": "Utimaco, Germanusstraße 4, 52080 Aachen",
       "start": "2025-12-03T18:30:00",
       "timezone": "Europe/Berlin",
