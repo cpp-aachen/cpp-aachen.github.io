@@ -5,34 +5,9 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 3. Dezember 2025** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
+Wir streben einen (grob) zwei-monatigen Rhythmus an. Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
-Geplante Vorträge:
-
-* **Safer integer handling with modern C++** (John Franklin Rickard)
-* **ASIO & Coro - Networking Programming with C++20 Coroutines** (Peter Eisenlohr)
-
-Ort der Veranstaltung:
-
-[**Utimaco**](https://utimaco.com/)  
-Germanusstraße 4  
-52080 Aachen
-
-Hinweis: Bitte den Eingang auf der Alt-Haarener Straße 36 benutzen.
-
-Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
-
-## Nächste Termine
-
-Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
-
-* 4\. Februar 2026 (ModuleWorks)
-* 1\. April 2026 (SLB)
-* 3\. Juni 2026 (Magma)
-* 5\. August 2026 (Utimaco)
-* 7\. Oktober 2026 (ModuleWorks)
-* 2\. Dezember 2026 (SLB)
+{{ NEXT_MEETINGS }}
 
 ## Elektronischer Kalender 
 
@@ -40,7 +15,7 @@ Der jeweils aktuellste Stand der Planung befindet sich unter<br>[`https://github
 
 Diesen Kalender kann man sich durch Angabe der URL in der eigenen Kalender-App auf dem Mobiltelefon oder dem entsprechenden Programm (Outlook, Thunderbird) abonnieren und bleibt so immer auf dem neuesten Stand.  
 
-# Vorträge
+## Vorträge
 
 Die Treffen leben von *euren* Vorträgen, meldet euch gerne mit euren Vorschlägen und Ideen.
 Wir möchten auch ausdrücklich darauf hinweisen, dass nicht jeder Vortrag über Template Metaprogrammierung gehen muss, auch "einfachere" Themen sind sehr willkommen und wir hatten bereits viele Vorträge die sehr gut angekommen sind.
