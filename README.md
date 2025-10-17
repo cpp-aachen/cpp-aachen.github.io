@@ -15,7 +15,7 @@ Der jeweils aktuellste Stand der Planung befindet sich unter<br>[`https://github
 
 Diesen Kalender kann man sich durch Angabe der URL in der eigenen Kalender-App auf dem Mobiltelefon oder dem entsprechenden Programm (Outlook, Thunderbird) abonnieren und bleibt so immer auf dem neuesten Stand.  
 
-# Vorträge
+## Vorträge
 
 Die Treffen leben von *euren* Vorträgen, meldet euch gerne mit euren Vorschlägen und Ideen.
 Wir möchten auch ausdrücklich darauf hinweisen, dass nicht jeder Vortrag über Template Metaprogrammierung gehen muss, auch "einfachere" Themen sind sehr willkommen und wir hatten bereits viele Vorträge die sehr gut angekommen sind.
