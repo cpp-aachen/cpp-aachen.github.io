@@ -5,15 +5,16 @@
       "summary": "C++ User Group Aachen",
       "location": "Guinness House, Neupforte 6, 52062 Aachen",
       "start": "2025-12-03T22:30:00",
+      "end": "2025-12-04T01:00:00",
       "timezone": "Europe/Berlin",
       "description": "Und nachher noch nett zusammensitzen",
-      "url": "http://www.guinnesshouse.de",
-      "end": "2025-12-04T01:00:00"
+      "url": "http://www.guinnesshouse.de"
     },
     {
       "summary": "C++ User Group Aachen",
       "location": "Utimaco, Germanusstraße 4, 52080 Aachen",
       "start": "2025-12-03T18:30:00",
+      "end": "2025-12-03T22:30:00",
       "timezone": "Europe/Berlin",
       "description": "Safer Integer Handling with Modern C++ (John Franklin Rickard)\nASIO & Coro - Networking Programming with C++20 Coroutines (Peter Eisenlohr)",
       "url": "https://cpp-aachen.github.io/"
@@ -22,6 +23,7 @@
       "summary": "C++ User Group Aachen",
       "location": "ModuleWorks, Henricistraße 50-52, 52072 Aachen",
       "start": "2026-02-04T18:30:00",
+      "end": "2026-02-04T22:30:00",
       "timezone": "Europe/Berlin",
       "description": "TBD",
       "url": "https://cpp-aachen.github.io/"
@@ -30,6 +32,7 @@
       "summary": "C++ User Group Aachen",
       "location": "SLB, Ritterstraße 23, 52072 Aachen",
       "start": "2026-04-01T18:30:00",
+      "end": "2026-04-01T22:30:00",
       "timezone": "Europe/Berlin",
       "description": "TBD",
       "url": "https://cpp-aachen.github.io/"
@@ -38,6 +41,7 @@
       "summary": "C++ User Group Aachen",
       "location": "Magma, Kackertstraße 16-18, 52072 Aachen",
       "start": "2026-06-03T18:30:00",
+      "end": "2026-06-03T21:30:00",
       "timezone": "Europe/Berlin",
       "description": "TBD",
       "url": "https://cpp-aachen.github.io/"
@@ -46,6 +50,7 @@
       "summary": "C++ User Group Aachen",
       "location": "Utimaco, Germanusstraße 4, 52080 Aachen",
       "start": "2026-08-05T18:30:00",
+      "end": "2026-08-05T22:30:00",
       "timezone": "Europe/Berlin",
       "description": "TBD",
       "url": "https://cpp-aachen.github.io/"
@@ -54,6 +59,7 @@
       "summary": "C++ User Group Aachen",
       "location": "ModuleWorks, Henricistraße 50-52, 52072 Aachen",
       "start": "2026-10-07T18:30:00",
+      "end": "2026-10-07T22:30:00",
       "timezone": "Europe/Berlin",
       "description": "TBD",
       "url": "https://cpp-aachen.github.io/"
@@ -62,6 +68,7 @@
       "summary": "C++ User Group Aachen",
       "location": "SLB, Ritterstraße 23, 52072 Aachen",
       "start": "2026-12-02T18:30:00",
+      "end": "2026-12-02T22:30:00",
       "timezone": "Europe/Berlin",
       "description": "TBD",
       "url": "https://cpp-aachen.github.io/"
