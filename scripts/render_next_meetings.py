@@ -59,13 +59,7 @@ def format_markdown(events, limit=None):
     # inklusive Link, wenn vorhanden
     for e in events:
         dt = e["start"]
-        date_str = dt.strftime("%A, %-d. %B %Y, %H:%M").replace("Monday","Montag")\
-                                                      .replace("Tuesday","Dienstag")\
-                                                      .replace("Wednesday","Mittwoch")\
-                                                      .replace("Thursday","Donnerstag")\
-                                                      .replace("Friday","Freitag")\
-                                                      .replace("Saturday","Samstag")\
-                                                      .replace("Sunday","Sonntag")
+        date_str = dt.strftime("%A, %-d. %B %Y, %H:%M")
         # Einige Systeme unterstützen %-d nicht (Mac). Fallback:
         if "%-d" in "%-d":
             date_str = dt.strftime("%A, %d. %B %Y, %H:%M")
@@ -73,23 +67,44 @@ def format_markdown(events, limit=None):
             if date_str[9] == "0":
                 date_str = date_str[:9] + date_str[10:]
 
-        parts = [f"{date_str}"]
+        date_str = date_str.replace("Monday","Montag")\
+                            .replace("Tuesday","Dienstag")\
+                            .replace("Wednesday","Mittwoch")\
+                            .replace("Thursday","Donnerstag")\
+                            .replace("Friday","Freitag")\
+                            .replace("Saturday","Samstag")\
+                            .replace("Sunday","Sonntag")
+
+
+        parts = ['- ### ' + f"{date_str}"]
+                
         if e["location"]:
-            parts.append(e["location"])
+
+            location_text = "\n  - [" \
+                + e["location"] \
+                + "](https://www.google.com/maps/search/?api=1&query=" \
+                + e["location"].replace(" ", "+") \
+                + ")\n"
+
+            parts.append(location_text)
+
         desc = e["description"].strip() if e["description"] else ""
-        # Kurzbeschreibung eine Zeile
-        if desc:
-            # Nur erste Zeile/verkürzt
-            short = desc.splitlines()[0]
-            if len(short) > 120:
-                short = short[:117] + "…"
-            parts.append(short)
-        line = " — ".join(parts)
-        # Link optional
-        if e["url"]:
-            line += f" — {e['url']}"
-        lines.append(f"- {line}")
-    return "\n".join(lines)
+
+        if (desc != ""):
+            parts.append("  - **Vorträge**\n")
+
+            if "&" in desc:
+                parts.append("    - ")    
+                parts.append(desc.replace("\n", "\n    - "))
+            else:
+                parts.append(desc)
+
+            parts.append("\n")    
+
+        lines.append("".join(parts))
+
+    
+    return "".join(lines)
 
 def main():
     events = load_events()
