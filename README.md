@@ -23,22 +23,11 @@ Hinweis: Bitte den Eingang auf der Alt-Haarener Straße 36 benutzen.
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
-## Nächste Termine
+## Elektronischer Kalender
 
-Wir streben einen (grob) zwei-monatigen Rhythmus an, vorläufige Termine sind:
+Der jeweils aktuellste Stand der Planung befindet sich unter<br>[`https://github.com/cpp-aachen/cpp-aachen.github.io/releases/download/latest/cpp-aachen.ics`](https://github.com/cpp-aachen/cpp-aachen.github.io/releases/download/latest/cpp-aachen.ics).
 
-* 4\. Februar 2026 (ModuleWorks)
-* 1\. April 2026 (SLB)
-* 3\. Juni 2026 (Magma)
-* 5\. August 2026 (Utimaco)
-* 7\. Oktober 2026 (ModuleWorks)
-* 2\. Dezember 2026 (SLB)
-
-## Elektronischer Kalender 
-
-Der jeweils aktuellste Stand der Planung befindet sich unter<br>[`https://github.com/cpp-aachen/cpp-aachen.github.io/releases/download/latest/cpp-aachen.ics`](https://github.com/cpp-aachen/cpp-aachen.github.io/releases/download/latest/cpp-aachen.ics). 
-
-Diesen Kalender kann man sich durch Angabe der URL in der eigenen Kalender-App auf dem Mobiltelefon oder dem entsprechenden Programm (Outlook, Thunderbird) abonnieren und bleibt so immer auf dem neuesten Stand.  
+Diesen Kalender kann man sich durch Angabe der URL in der eigenen Kalender-App auf dem Mobiltelefon oder dem entsprechenden Programm (Outlook, Thunderbird) abonnieren und bleibt so immer auf dem neuesten Stand.
 
 # Vorträge
 
