@@ -25,7 +25,7 @@
       "start": "2026-02-04T18:30:00",
       "end": "2026-02-04T22:30:00",
       "timezone": "Europe/Berlin",
-      "description": "TBD",
+      "description": "VCPKG for Dependency Management (Kevin Leonardic)\nIntroduction into libfmt/std::format (Daniel Evers)",
       "url": "https://cpp-aachen.github.io/"
     },
     {
