@@ -3,6 +3,15 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2025-12-03
+
+### ASIO & Coro Part I - From sync to async to as-sync
+
+* Autor: Peter Eisenlohr
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/pgit/)
+* Folien: [PDF](archive/2025-12-03/ASIO-CORO%20-%20Part%20I%20-%20From%20Sync%20to%20Async%20to%20As-Sync.pdf)
+* Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/pgit/asio-coro)
+
 ## 2025-10-08
 
 ### It's dangerously verbose to go alone - take this (explicitly)
