@@ -5,21 +5,19 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 3. Dezember 2025** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Utimaco**](https://utimaco.com/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 4. Februar 2026** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Safer integer handling with modern C++** (John Franklin Rickard)
-* **ASIO & Coro - Networking Programming with C++20 Coroutines** (Peter Eisenlohr)
+* **VCPKG for Dependency Management** (Kevin Leonardic)
+* **Introduction into libfmt/std::format** (Daniel Evers)
 
 Ort der Veranstaltung:
 
-[**Utimaco**](https://utimaco.com/)  
-Germanusstraße 4  
-52080 Aachen
-
-Hinweis: Bitte den Eingang auf der Alt-Haarener Straße 36 benutzen.
+[**ModuleWorks**](https://www.moduleworks.com/)  
+Henricistraße 50-52  
+52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
@@ -83,9 +81,9 @@ Für unsere Veranstaltungen benennen wir daher jeweils mindestens eine Person, d
 Die folgenden Firmen stellen freundlicherweise Räume und Bewirtung zur Verfügung, vielen Dank dafür!
 Die Usergruppe findet reihum, bzw. je nach Verfügbarkeit statt bei:
 
-## Utimaco
+## Nexburg
 
-[**Utimaco**](https://utimaco.com/)  
+[**Nexburg**](https://utimaco.com/) (ehemals Utimaco)  
 Germanusstraße 4  
 52080 Aachen
 
