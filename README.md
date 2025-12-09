@@ -83,9 +83,10 @@ Die Usergruppe findet reihum, bzw. je nach Verfügbarkeit statt bei:
 
 ## Nexburg
 
-[**Nexburg**](https://utimaco.com/) (ehemals Utimaco)  
+[**Nexburg**](https://nexburg.com/) (ehemals Utimaco)  
 Germanusstraße 4  
-52080 Aachen
+52080 Aachen  
+Eingang: Alt-Haarener Straße 36
 
 ## ModuleWorks
 
