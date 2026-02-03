@@ -6,7 +6,7 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 # Termine
 
 Das nächste Treffen findet am **Mittwoch, den 4. Februar 2026** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.com/), die Vorträge beginnen ab 19.00 Uhr.
+Wir treffen uns ab **18.30 Uhr** bei [**Nexburg**](https://nexburg.com/) (ehemals Utimaco), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
@@ -15,9 +15,10 @@ Geplante Vorträge:
 
 Ort der Veranstaltung:
 
-[**ModuleWorks**](https://www.moduleworks.com/)  
-Henricistraße 50-52  
-52072 Aachen
+[**Nexburg**](https://nexburg.com/) (ehemals Utimaco)  
+Germanusstraße 4  
+52080 Aachen  
+Eingang: Alt-Haarener Straße 36
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
