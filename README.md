@@ -11,7 +11,8 @@ Wir treffen uns ab **18.30 Uhr** bei [**Nexburg**](https://nexburg.com/) (ehemal
 Geplante Vorträge:
 
 * **VCPKG for Dependency Management** (Kevin Leonardic)
-* **Introduction into libfmt/std::format** (Daniel Evers)
+* **CMake Presets - Run CMake from your IDE** (Sven Johannsen)
+
 
 Ort der Veranstaltung:
 

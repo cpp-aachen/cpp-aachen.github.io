@@ -16,7 +16,7 @@
       "start": "2026-02-04T18:30:00",
       "end": "2026-02-04T22:30:00",
       "timezone": "Europe/Berlin",
-      "description": "VCPKG for Dependency Management (Kevin Leonardic)\nIntroduction into libfmt/std::format (Daniel Evers)",
+      "description": "VCPKG for Dependency Management (Kevin Leonardic)\nCMake Presets - Run CMake from your IDE (Sven Johannsen)",
       "url": "https://cpp-aachen.github.io/"
     },
     {
