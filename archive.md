@@ -3,6 +3,15 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2026-02-04
+
+### vcpkg - C++ library dependency handling
+
+* Autor: Kevin Leonardic
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/kevle/)
+* Folien: [PDF](archive/2026-02-04/vcpkg_c++_library_dependency_handling.pdf)
+* Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/kevle/vcpkg_sha256_example)
+
 ## 2025-12-03
 
 ### ASIO & Coro Part I - From sync to async to as-sync
