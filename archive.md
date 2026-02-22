@@ -12,6 +12,13 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 * Folien: [PDF](archive/2026-02-04/vcpkg_c++_library_dependency_handling.pdf)
 * Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/kevle/vcpkg_sha256_example)
 
+### CMake Presets
+
+* Autor: Sven Johannsen
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/SvenJo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/sven-johannsen-09744a2b/)
+* Folien: [PDF](archive/2026-02-04/CMake_Presets.pdf)
+
 ## 2025-12-03
 
 ### ASIO & Coro Part I - From sync to async to as-sync
