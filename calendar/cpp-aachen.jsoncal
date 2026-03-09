@@ -4,28 +4,19 @@
     {
       "summary": "C++ User Group Aachen",
       "location": "Guinness House, Neupforte 6, 52062 Aachen",
-      "start": "2026-02-04T22:30:00",
-      "end": "2026-02-05T01:00:00",
+      "start": "2026-04-15T22:30:00",
+      "end": "2026-04-15T23:59:59",
       "timezone": "Europe/Berlin",
       "description": "Und nachher noch nett zusammensitzen",
       "url": "http://www.guinnesshouse.de"
     },
     {
       "summary": "C++ User Group Aachen",
-      "location": "Nexburg, Germanusstraße 4, 52080 Aachen",
-      "start": "2026-02-04T18:30:00",
-      "end": "2026-02-04T22:30:00",
-      "timezone": "Europe/Berlin",
-      "description": "VCPKG for Dependency Management (Kevin Leonardic)\nCMake Presets - Run CMake from your IDE (Sven Johannsen)",
-      "url": "https://cpp-aachen.github.io/"
-    },
-    {
-      "summary": "C++ User Group Aachen",
-      "location": "SLB, Ritterstraße 23, 52072 Aachen",
+      "location": "ModuleWorks, Henricistraße 50-52, 52072 Aachen",
       "start": "2026-04-15T18:30:00",
       "end": "2026-04-15T22:30:00",
       "timezone": "Europe/Berlin",
-      "description": "TBD",
+      "description": "Type-Erasure – mal anders (Tobias Hoffmann)\nCapture This! (Markus Werle)\nC++20 - the small things (part 2) (Daniel Evers)",
       "url": "https://cpp-aachen.github.io/"
     },
     {
