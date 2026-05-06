@@ -3,6 +3,21 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2026-04-15
+
+### Capture This!
+
+* Autor: Markus Werle
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
+
+### C++20 - the small things (part 2)
+
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+* Folien: [PDF](archive/2026-04-15/C++20_the_small_things_2.pdf)
+
 ## 2026-02-04
 
 ### vcpkg - C++ library dependency handling
