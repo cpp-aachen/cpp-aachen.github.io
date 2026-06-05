@@ -11,7 +11,7 @@ Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.c
 Geplante Vorträge:
 
 * **Type-Erasure – mal anders** (Tobias Hoffmann)
-* **TBD**
+* **Cross platform adventures and useful MSVC flags** (John Franklin Rickard)
 
 Ort der Veranstaltung:
 
