@@ -3,6 +3,14 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2026-06-10
+
+### Type erasure – mal anders (Type erasure, take two)
+
+* Autor: Tobias Hoffmann
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
+* Folien: [PDF](archive/2026-06-10/type_erasure_take_two.pdf)
+
 ## 2026-04-15
 
 ### Capture This!
