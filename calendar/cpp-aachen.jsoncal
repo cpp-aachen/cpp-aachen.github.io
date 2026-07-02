@@ -4,20 +4,11 @@
     {
       "summary": "C++ User Group Aachen",
       "location": "Guinness House, Neupforte 6, 52062 Aachen",
-      "start": "2026-06-10T22:30:00",
-      "end": "2026-06-10T23:59:59",
+      "start": "2026-08-05T22:30:00",
+      "end": "2026-08-05T23:59:59",
       "timezone": "Europe/Berlin",
       "description": "Und nachher noch nett zusammensitzen",
       "url": "http://www.guinnesshouse.de"
-    },
-    {
-      "summary": "C++ User Group Aachen",
-      "location": "ModuleWorks, Henricistraße 50-52, 52072 Aachen",
-      "start": "2026-06-10T18:30:00",
-      "end": "2026-06-10T21:30:00",
-      "timezone": "Europe/Berlin",
-      "description": "Type-Erasure – mal anders (Tobias Hoffmann)\nCross platform adventures and useful MSVC flags (John Franklin Rickard)",
-      "url": "https://cpp-aachen.github.io/"
     },
     {
       "summary": "C++ User Group Aachen",

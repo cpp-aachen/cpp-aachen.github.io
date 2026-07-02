@@ -5,18 +5,17 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 10. Juni 2026** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**ModuleWorks**](https://www.moduleworks.com/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 5. August 2026** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**SLB**](https://www.slb.com/) (ehemals Schlumberger), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **Type-Erasure – mal anders** (Tobias Hoffmann)
-* **Cross platform adventures and useful MSVC flags** (John Franklin Rickard)
+* *TBD*
 
 Ort der Veranstaltung:
 
-[**ModuleWorks**](https://www.moduleworks.com/)  
-Henricistraße 50-52  
+[**SLB**](https://www.slb.com/) (ehemals Schlumberger)  
+Ritterstraße 23  
 52072 Aachen
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
