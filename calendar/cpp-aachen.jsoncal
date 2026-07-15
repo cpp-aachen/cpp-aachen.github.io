@@ -4,20 +4,11 @@
     {
       "summary": "C++ User Group Aachen",
       "location": "Guinness House, Neupforte 6, 52062 Aachen",
-      "start": "2026-08-05T22:30:00",
-      "end": "2026-08-05T23:59:59",
+      "start": "2026-10-07T22:30:00",
+      "end": "2026-10-07T23:59:59",
       "timezone": "Europe/Berlin",
       "description": "Und nachher noch nett zusammensitzen",
       "url": "http://www.guinnesshouse.de"
-    },
-    {
-      "summary": "C++ User Group Aachen",
-      "location": "SLB, Ritterstraße 23, 52072 Aachen",
-      "start": "2026-08-05T18:30:00",
-      "end": "2026-08-05T22:30:00",
-      "timezone": "Europe/Berlin",
-      "description": "TBD",
-      "url": "https://cpp-aachen.github.io/"
     },
     {
       "summary": "C++ User Group Aachen",
