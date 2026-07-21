@@ -5,7 +5,7 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-:point_up: **Das Treffen im August fällt aufgrund der Sommerferien aus**
+**Das Treffen im August fällt aufgrund der Sommerferien aus**
 
 Das nächste Treffen findet am **Mittwoch, den 7. Oktober 2026** statt.
 Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
