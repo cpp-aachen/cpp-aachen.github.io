@@ -16,7 +16,7 @@
       "start": "2026-10-07T18:30:00",
       "end": "2026-10-07T22:30:00",
       "timezone": "Europe/Berlin",
-      "description": "TBD",
+      "description": "Introduction into libfmt/std::format (Daniel Evers)",
       "url": "https://cpp-aachen.github.io/"
     },
     {
