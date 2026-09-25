@@ -11,6 +11,13 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/smilingthax/)
 * Folien: [PDF](archive/2026-06-10/type_erasure_take_two.pdf)
 
+### Cross Platform Adventures And Useful Msvc Flags
+
+* Autor: John Franklin Rickard
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/johnfranklinrickard)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/john-franklin-rickard/)
+* Folien: [PDF](archive\2026-06-10\CrossPlatformAdventuresAndUsefulMsvcFlags.pdf)
+
 ## 2026-04-15
 
 ### Capture This!
