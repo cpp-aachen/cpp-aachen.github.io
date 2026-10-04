@@ -10,8 +10,8 @@ Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die
 
 Geplante Vorträge:
 
-* **Introduction into libfmt/std::format** (Daniel Evers)
 * **How to KISS and be happy about it** (Rosen Vitanov)
+* **Introduction into libfmt/std::format** (Daniel Evers)
 
 Ort der Veranstaltung:
 
