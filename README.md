@@ -5,19 +5,22 @@ Außerdem soll mit den Vorträgen das Wissen von und um C++ erweitert werden kö
 
 # Termine
 
-Das nächste Treffen findet am **Mittwoch, den 7. Oktober 2026** statt.
-Wir treffen uns ab **18.30 Uhr** bei [**Magma**](https://www.magmasoft.de/), die Vorträge beginnen ab 19.00 Uhr.
+Das nächste Treffen findet am **Mittwoch, den 2. Dezember 2026** statt.
+Wir treffen uns ab **18.30 Uhr** bei [**Nexburg**](https://nexburg.com/), die Vorträge beginnen ab 19.00 Uhr.
 
 Geplante Vorträge:
 
-* **How to KISS and be happy about it** (Rosen Vitanov)
-* **Introduction into libfmt/std::format** (Daniel Evers)
+* **WG21 - Contract Drama** (John Franklin Rickard)
+* **Language Contract - Unicode vs. C++** (Sven Johannsen)
+* **gRPC - Contracts at Work** (Markus Werle)
+* **GDB - for Contractors** (Michael Becker)
 
 Ort der Veranstaltung:
 
-[**Magma**](https://www.magmasoft.de/)  
-Kackertstraße 16-18  
-52072 Aachen
+[**Nexburg**](https://nexburg.com/) (ehemals Utimaco)  
+Germanusstraße 4  
+52080 Aachen  
+Eingang: Alt-Haarener Straße 36
 
 Weitere Informationen über [Meetup](https://www.meetup.com/de-DE/C-User-Gruppe-Aachen).
 
