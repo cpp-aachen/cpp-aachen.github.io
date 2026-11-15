@@ -3,6 +3,21 @@
 Willkommen in unserem Archiv.
 Sofern vorhanden werden wir hier Folien, Links und weiteres Material über vergangene Vorträge ablegen.
 
+## 2026-10-07
+
+### How to KISS and be happy about it
+
+* Autor: Rosen Vitanov
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/Ozzymandia5/)
+* Folien: [PDF](archive/2026-10-07/How-to-KISS-revised.pdf)
+
+### Introduction into libfmt/std::format
+
+* Autor: Daniel Evers
+  [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/dermojo/)
+  [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/daniel-evers-30a62328b/)
+* Folien: [PDF](archive/2026-10-07/Introduction_to_fmt.pdf)
+
 ## 2026-06-10
 
 ### Type erasure – mal anders (Type erasure, take two)
