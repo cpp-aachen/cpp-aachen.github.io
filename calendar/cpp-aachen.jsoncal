@@ -18,6 +18,60 @@
       "timezone": "Europe/Berlin",
       "description": "WG21 - Contract Drama (John Franklin Rickard)\nLanguage Contract - Unicode vs. C++ (Sven Johannsen)\ngRPC - Contracts at Work (Markus Werle)\nGDB - for Contractors (Michael Becker)",
       "url": "https://cpp-aachen.github.io/"
+    },
+    {
+      "summary": "C++ User Group Aachen",
+      "location": "ModuleWorks, Henricistraße 50-52, 52072 Aachen",
+      "start": "2027-02-03T18:30:00",
+      "end": "2027-02-03T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "TBD",
+      "url": "https://cpp-aachen.github.io/"
+    },
+    {
+      "summary": "C++ User Group Aachen",
+      "location": "SLB, Ritterstraße 23, 52072 Aachen",
+      "start": "2027-04-07T18:30:00",
+      "end": "2027-04-07T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "TBD",
+      "url": "https://cpp-aachen.github.io/"
+    },
+    {
+      "summary": "C++ User Group Aachen",
+      "location": "Magma, Kackertstraße 16-18, 52072 Aachen",
+      "start": "2027-06-02T18:30:00",
+      "end": "2027-06-02T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "TBD",
+      "url": "https://cpp-aachen.github.io/"
+    },
+    {
+      "summary": "C++ User Group Aachen",
+      "location": "Nexburg, Germanusstraße 4, 52080 Aachen",
+      "start": "2027-08-04T18:30:00",
+      "end": "2027-08-04T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "TBD",
+      "url": "https://cpp-aachen.github.io/"
+    },
+    {
+      "summary": "C++ User Group Aachen",
+      "location": "ModuleWorks, Henricistraße 50-52, 52072 Aachen",
+      "start": "2027-10-06T18:30:00",
+      "end": "2027-10-06T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "TBD",
+      "url": "https://cpp-aachen.github.io/"
+    },
+    {
+      "summary": "C++ User Group Aachen",
+      "location": "SLB, Ritterstraße 23, 52072 Aachen",
+      "start": "2027-12-01T18:30:00",
+      "end": "2027-12-01T22:30:00",
+      "timezone": "Europe/Berlin",
+      "description": "TBD",
+      "url": "https://cpp-aachen.github.io/"
     }
   ]
 }
