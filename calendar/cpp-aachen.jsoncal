@@ -4,20 +4,11 @@
     {
       "summary": "C++ User Group Aachen",
       "location": "Guinness House, Neupforte 6, 52062 Aachen",
-      "start": "2026-10-07T22:30:00",
-      "end": "2026-10-07T23:59:59",
+      "start": "2026-12-02T22:30:00",
+      "end": "2026-12-02T23:59:59",
       "timezone": "Europe/Berlin",
       "description": "Und nachher noch nett zusammensitzen",
       "url": "http://www.guinnesshouse.de"
-    },
-    {
-      "summary": "C++ User Group Aachen",
-      "location": "Magma, Kackertstraße 16-18, 52072 Aachen",
-      "start": "2026-10-07T18:30:00",
-      "end": "2026-10-07T22:30:00",
-      "timezone": "Europe/Berlin",
-      "description": "How to KISS and be happy about it (Rosen Vitanov)\nIntroduction into libfmt/std::format (Daniel Evers)",
-      "url": "https://cpp-aachen.github.io/"
     },
     {
       "summary": "C++ User Group Aachen",
@@ -25,7 +16,7 @@
       "start": "2026-12-02T18:30:00",
       "end": "2026-12-02T22:30:00",
       "timezone": "Europe/Berlin",
-      "description": "TBD",
+      "description": "WG21 - Contract Drama (John Franklin Rickard)\nLanguage Contract - Unicode vs. C++ (Sven Johannsen)\ngRPC - Contracts at Work (Markus Werle)\nGDB - for Contractors (Michael Becker)",
       "url": "https://cpp-aachen.github.io/"
     }
   ]
