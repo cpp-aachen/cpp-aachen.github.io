@@ -25,6 +25,8 @@ Sofern vorhanden werden wir hier Folien, Links und weiteres Material über verga
 * Autor: Markus Werle
   [<img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose)
   [<img alt="LinkedIn" height="16px" src="images/LinkedIn.png"/>](https://www.linkedin.com/in/markus-werle/)
+* Folien: [Online](https://www.daixtrose.de/talks/capture-this/)
+* Code: [GitHub <img alt="GitHub" height="16px" src="images/GitHub-light.png">](https://github.com/daixtrose/capture-this)
 
 ### C++20 - the small things (part 2)
 
